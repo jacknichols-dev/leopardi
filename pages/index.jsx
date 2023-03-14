@@ -19,7 +19,7 @@ export default function Home() {
         <main className={styles.main}>
           <Hero />
           <WelcomeSection />
-          <div style={{ backgroundColor: '#f0f6fa', width: '100vw' }}>
+          <div style={{ backgroundColor: '#f3f3f3', width: '100vw' }}>
             <FeaturedProducts />
           </div>
         </main>

@@ -5,7 +5,7 @@ import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 import { EffectFade } from 'swiper';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Button from '../button/Button';
 
 export const Hero = (props) => {
@@ -27,7 +27,15 @@ export const Hero = (props) => {
         {HERO_SLIDES.map((slide, index) => (
           <div key={index}>
             <SwiperSlide key={slide.id}>
-              <div
+              <Image
+                src={slide.bgImg}
+                alt="banner"
+                blurDataURL={slide.bgImg}
+                placeholder="blur"
+                layout="fill"
+                objectFit="cover"
+              />
+              {/* <div
                 className={styles.hero__slide}
                 style={{
                   backgroundImage: `url(${slide.bgImg})`,
@@ -35,8 +43,8 @@ export const Hero = (props) => {
                   height: '100%',
                   backgroundPosition: 'center',
                 }}
-              >
-                {/* <Image
+              > */}
+              {/* <Image
                   src={slide.bgImg}
                   fill
                   priority
@@ -45,10 +53,9 @@ export const Hero = (props) => {
                           33vw"
                   alt="banner background"
                 /> */}
-                <div className={styles['hero__slide--text']}>
-                  <h1>{slide.title}</h1>
-                  <Button>Shop Now</Button>
-                </div>
+              <div className={styles['hero__slide--text']}>
+                <h1>{slide.title}</h1>
+                <Button>Shop Now</Button>
               </div>
             </SwiperSlide>
           </div>

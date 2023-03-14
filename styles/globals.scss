@@ -146,7 +146,7 @@ ul {
   -o-animation: rotation 0.5s infinite linear;
   animation: rotation 0.5s infinite linear;
   border-top: 0.6rem solid $pri;
-  border-left: 0.6rem solid $sec;
+  border-left: 0.6rem solid $dark;
 }
 
 @keyframes rotation {
@@ -230,7 +230,7 @@ ul {
   width: 22rem;
   padding: 1.5rem 2rem;
   font-family: 'EB Garamond', serif;
-  border: 0.5px solid $sec;
+  border: 0.5px solid $dark;
   font-weight: 700;
   font-size: 1.9rem;
   cursor: pointer;

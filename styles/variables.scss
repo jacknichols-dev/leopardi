@@ -1,0 +1,48 @@
+//colours
+
+$pri: #d3a166;
+$sec: #14583f;
+$dark: #222629;
+$light: #f0f6fa;
+$pink: #faecf7;
+
+//shadows
+
+$sha: 0px 13px 20px -13px rgba(0, 0, 0, 0.21);
+
+// breakpoints
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 30em) {
+      @content; //320px - 480px
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 48em) {
+      @content; //768px - 1024px
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 64em) {
+      @content; //768px - 1024px
+    }
+  }
+  @if $breakpoint == laptop {
+    @media only screen and (max-width: 97em) {
+      @content; //1224px
+    }
+  }
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 150em) {
+      @content; //1824px
+    }
+  }
+}
+
+//margins and padding
+
+$margin: 7rem 0;
+$marginSmall: 5rem 0;
+$padding: 3rem;
+$paddingSmall: 2rem;

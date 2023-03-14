@@ -1,9 +1,6 @@
-// import Image from 'next/image';
+/* eslint-disable react-hooks/rules-of-hooks */
 import React, { useEffect, useState } from 'react';
-// import logo from '../../public/assets/icons/riverport-logo.svg';
-// import Btn from '../btn/Btn';
 import styles from '../../styles/Header.module.scss';
-// import phone from '../../public/assets/icons/Icon-phone.png';
 import Navbar from './navbar/Navbar';
 
 const header = ({ active }) => {

@@ -1,0 +1,17 @@
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.2rem;
+
+  &::before,
+  &::after {
+    content: '';
+    display: flex;
+    background: black;
+    height: 0.15rem;
+    justify-content: center;
+    align-items: center;
+  }
+}

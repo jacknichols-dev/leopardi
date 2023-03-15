@@ -1,7 +1,7 @@
 @import 'variables';
 
 .featured {
-  margin: 7rem 0;
+  margin: 3rem 0;
   position: relative;
 
   h1 {
@@ -15,6 +15,7 @@
     justify-content: space-between;
     gap: 2rem;
     height: 50rem;
+    width: 100%;
     margin-top: 5rem;
   }
 
@@ -27,7 +28,7 @@
     cursor: pointer;
 
     &:hover .featured__card--img img {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
 
     &--img-container {

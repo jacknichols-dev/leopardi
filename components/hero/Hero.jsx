@@ -16,10 +16,10 @@ export const Hero = (props) => {
       <Swiper
         navigation
         pagination={{ clickable: true }}
-        // autoplay={{
-        //   delay: 4000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 6000,
+          disableOnInteraction: true,
+        }}
         speed={500}
         loop={true}
         modules={[EffectFade]}

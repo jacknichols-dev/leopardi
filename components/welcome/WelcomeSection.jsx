@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '@/styles/Home.module.scss';
 import Image from 'next/legacy/image';
+import HeadingTitle from '../headingTitle/HeadingTitle';
 
 const WelcomeSection = () => {
   return (

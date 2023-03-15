@@ -3,12 +3,13 @@ import styles from '../../styles/Featured.module.scss';
 import { CARDS } from '../../data/cardsData';
 import Image from 'next/legacy/image';
 import Button from '../button/Button';
+import HeadingTitle from '../headingTitle/HeadingTitle';
 
 const FeaturedProducts = () => {
   return (
     <div className="container">
       <div className={styles.featured}>
-        <h1>Featured Products</h1>
+        <HeadingTitle>Our Featured Products</HeadingTitle>
 
         <div className={styles.featured__cards}>
           {CARDS.map((card) => (

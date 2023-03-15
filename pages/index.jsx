@@ -5,6 +5,7 @@ import Layout from '@/components/layout/Layout';
 import { Hero } from '@/components/hero/Hero';
 import WelcomeSection from '@/components/welcome/WelcomeSection';
 import FeaturedProducts from '@/components/featured/FeaturedProducts';
+import Categories from '@/components/categories/Categories';
 
 export default function Home() {
   return (
@@ -19,9 +20,8 @@ export default function Home() {
         <main className={styles.main}>
           <Hero />
           <WelcomeSection />
-          <div style={{ backgroundColor: '#f3f3f3', width: '100vw' }}>
-            <FeaturedProducts />
-          </div>
+          <FeaturedProducts />
+          <Categories />
         </main>
       </Layout>
     </>

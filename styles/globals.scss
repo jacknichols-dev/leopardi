@@ -47,18 +47,18 @@ ul {
 }
 
 .container {
-  max-width: 150rem;
+  width: 150rem;
   margin: auto;
 
   @include respond(desktop) {
-    max-width: 80%;
+    width: 80%;
   }
 
   @include respond(laptop) {
-    max-width: 94%;
+    width: 94%;
   }
   @include respond(tab-port) {
-    max-width: 97%;
+    width: 97%;
   }
 }
 
@@ -243,4 +243,13 @@ ul {
     background-color: $pri !important;
     color: white !important;
   }
+}
+
+.react-multi-carousel-list {
+  height: 40rem !important;
+  position: inherit !important;
+}
+
+.react-multi-carousel-dot button {
+  border-color: $dark !important;
 }

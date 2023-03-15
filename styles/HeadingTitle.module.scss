@@ -1,17 +1,27 @@
+@import 'variables';
+
 .title {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 1.2rem;
+  column-gap: 2rem;
 
   &::before,
   &::after {
     content: '';
     display: flex;
-    background: black;
-    height: 0.15rem;
+    background: $sec;
+    width: 13rem;
+    height: 0.1rem;
     justify-content: center;
     align-items: center;
+  }
+
+  &::before {
+    justify-self: start;
+  }
+
+  img {
+    position: absolute;
   }
 }

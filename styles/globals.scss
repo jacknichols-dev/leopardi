@@ -29,9 +29,11 @@ h1,
 h2,
 h3 {
   font-family: 'EB Garamond', serif;
-
   line-height: 1.1;
-  font-size: 5rem;
+}
+
+h1 {
+  font-size: 3.8rem;
 }
 
 h2 {
@@ -188,7 +190,7 @@ ul {
 
 .swiper-wrapper {
   width: 100vw !important;
-  height: 50rem !important;
+  height: 60rem !important;
 }
 
 .swiper-button-next:after {
@@ -230,18 +232,19 @@ ul {
   width: 22rem;
   padding: 1.5rem 2rem;
   font-family: 'EB Garamond', serif;
-  border: 0.5px solid $dark;
+  border: 1px solid $dark;
   font-weight: 700;
+  background: $dark;
+  color: white;
   font-size: 1.9rem;
   cursor: pointer;
   transition: all 0.3s ease;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 1rem 2rem -1.5rem rgba(0, 0, 0, 0.35);
 
   &:hover {
-    background-color: $pri !important;
-    color: white !important;
+    background-color: white !important;
+    color: $dark !important;
   }
 }
 

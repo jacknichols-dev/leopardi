@@ -2,18 +2,10 @@
 
 .footer {
   width: 100%;
-  background-color: $pink;
+  background-color: white;
   min-height: calc(100% - 14rem);
   padding: 7rem 0;
-
-  &__content {
-    display: flex;
-    gap: 3rem;
-
-    @include respond(tab-port) {
-      display: block;
-    }
-  }
+  border-top: 2px solid $sec;
 
   &__left {
     flex: 1;
@@ -131,6 +123,7 @@
   &__bottom {
     background-color: white;
     color: $sec;
+    border-top: 1px solid $dark;
     font-size: 1.6rem;
     height: 7rem;
 

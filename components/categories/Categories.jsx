@@ -1,17 +1,11 @@
 import React from 'react';
 import styles from '@/styles/Categories.module.scss';
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
-// import 'swiper/swiper-bundle.min.css';
-// import 'swiper/swiper.min.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import { CATEGORIES } from '../../data/categoriesData';
-import Link from 'next/link';
 import Image from 'next/legacy/image';
-import Button from '../button/Button';
 import HeadingTitle from '../headingTitle/HeadingTitle';
 
 const Categories = () => {

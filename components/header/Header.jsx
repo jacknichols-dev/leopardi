@@ -20,7 +20,10 @@ const header = ({ active }) => {
 
   return (
     <>
-      <div className={styles['header-contianer']}>
+      <div className={styles['header-container']}>
+        <div className={styles.topmenu}>
+          <p>Free UK Delivery From Our Etsy Store.</p>
+        </div>
         <header
           className={
             scrolled

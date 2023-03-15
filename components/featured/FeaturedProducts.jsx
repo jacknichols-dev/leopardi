@@ -1,6 +1,10 @@
 import React from 'react';
-import styles from '../../styles/Featured.module.scss';
 import { CARDS } from '../../data/cardsData';
+
+import styles from '../../styles/Featured.module.scss';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
 import Image from 'next/legacy/image';
 import Button from '../button/Button';
 import HeadingTitle from '../headingTitle/HeadingTitle';
@@ -38,7 +42,7 @@ const FeaturedProducts = () => {
           style={{
             margin: '5rem auto',
             textAlign: 'center',
-            width: '80rem',
+            width: '80%',
           }}
         >
           We have a look for any occasion, from those special occasions to
@@ -49,7 +53,7 @@ const FeaturedProducts = () => {
           the button below to view our offerings.
         </p>
         <div className="" style={{ textAlign: 'center' }}>
-          <Button bg="white">Shop Now</Button>
+          <Button>Shop Now</Button>
         </div>
       </div>
     </div>

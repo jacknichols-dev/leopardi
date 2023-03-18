@@ -1,3 +1,4 @@
+import Image from 'next/legacy/image';
 import React from 'react';
 import styles from '../../styles/Footer.module.scss';
 // import Image from 'next/image';
@@ -12,6 +13,16 @@ const Footer = () => {
   return (
     <>
       <footer className={styles.footer}>
+        <div className={styles.footer__top}>
+          <span className={styles['footer__top--left']}></span>
+          <Image
+            src="/assets/leopardi-icon.png"
+            width="120%"
+            height="70%"
+            alt="icon"
+          ></Image>
+          <span className={styles['footer__top--right']}></span>
+        </div>
         <div className={`${styles.footer__content} ${'container'}`}>
           <div className={styles.footer__left}></div>
         </div>

@@ -6,7 +6,7 @@
 
   h1 {
     text-align: center;
-    color: $sec;
+    color: $dark;
   }
 
   &__cards {
@@ -66,7 +66,7 @@
 
     &--footer-link {
       background-color: $pink;
-      color: $sec;
+      color: $dark;
       width: 100%;
       bottom: 0;
       padding: 1rem 0;

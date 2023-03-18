@@ -5,7 +5,7 @@ import logo from '../../../public/assets/leopardi-logo.svg';
 import mail from '../../../public/assets/email_outline.svg';
 import NavItem from '../navItem/NavItem';
 import Image from 'next/image';
-// import { AiFillPhone, AiOutlineCloseCircle } from 'react-icons/ai';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 // import Btn from '../../btn/Btn';
 
 const MENU_LIST = [
@@ -74,7 +74,7 @@ const Navbar = ({ scrollActive }) => {
             ></span>
           </div>
 
-          {/* <AiOutlineCloseCircle
+          <AiOutlineCloseCircle
             size="5rem"
             style={{
               display: navActive ? 'flex' : 'none',
@@ -84,7 +84,7 @@ const Navbar = ({ scrollActive }) => {
             onClick={() => {
               setNavActive(!navActive);
             }}
-          /> */}
+          />
         </div>
 
         <div

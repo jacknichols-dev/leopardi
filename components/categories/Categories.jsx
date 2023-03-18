@@ -19,11 +19,7 @@ const Categories = () => {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 850, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 600, min: 0 },
+      breakpoint: { max: 850, min: 0 },
       items: 1,
     },
   };

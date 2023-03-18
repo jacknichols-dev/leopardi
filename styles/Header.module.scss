@@ -59,7 +59,7 @@
   }
 
   &__nav {
-    color: $sec;
+    color: $dark;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,7 +97,7 @@
 
       span {
         height: 0.4rem;
-        background-color: $sec;
+        background-color: $dark;
         width: 3.5rem;
         border-radius: 0.2rem;
       }
@@ -163,7 +163,7 @@
     }
     // &--link-active {
     // font-weight: bold;
-    // color: $sec;
+    // color: $dark;
     // }
 
     // &--backdrop {

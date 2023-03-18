@@ -4,8 +4,29 @@
   width: 100%;
   background-color: white;
   min-height: calc(100% - 14rem);
-  padding: 7rem 0;
-  border-top: 2px solid $sec;
+  padding: 0 0 7rem 0;
+
+  &__top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    &--left {
+      content: '';
+      height: 1px;
+      width: 100%;
+      background: $dark;
+    }
+
+    &--right {
+      content: '';
+      height: 1.5px;
+      width: 100%;
+      background: $dark;
+    }
+  }
 
   &__left {
     flex: 1;
@@ -122,7 +143,7 @@
 
   &__bottom {
     background-color: white;
-    color: $sec;
+    color: $dark;
     border-top: 1px solid $dark;
     font-size: 1.6rem;
     height: 7rem;

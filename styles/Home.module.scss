@@ -13,10 +13,7 @@
   justify-content: center;
   align-items: center;
   margin: 3rem 0;
-
-  @include respond(tab-port) {
-    flex-direction: column;
-  }
+  flex-wrap: wrap;
 
   &__left {
     flex: 2;
@@ -24,9 +21,19 @@
     display: flex;
     flex-direction: column;
 
+    @include respond(tab-land) {
+      text-align: center;
+    }
+
     h1 {
       color: $sec;
       padding-bottom: 3rem;
+
+      span {
+        @include respond(laptop) {
+          display: inline-block;
+        }
+      }
     }
   }
   &__right {
@@ -37,5 +44,9 @@
     justify-content: center;
     flex: 1;
     height: 30rem;
+
+    @include respond(tab-land) {
+      display: none;
+    }
   }
 }

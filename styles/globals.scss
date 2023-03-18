@@ -188,6 +188,13 @@ ul {
   }
 }
 
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  @include respond(tab-port) {
+    display: none !important;
+  }
+}
+
 .swiper-wrapper {
   width: 100vw !important;
   height: 60rem !important;
@@ -243,7 +250,7 @@ ul {
   position: relative;
 
   &:hover {
-    background-color: white !important;
+    background-color: $pink !important;
     color: $dark !important;
   }
 }
@@ -255,4 +262,8 @@ ul {
 
 .react-multi-carousel-dot button {
   border-color: $dark !important;
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 9 !important;
 }

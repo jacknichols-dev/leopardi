@@ -18,7 +18,7 @@ export const Hero = (props) => {
         pagination={{ clickable: true }}
         autoplay={{
           delay: 6000,
-          disableOnInteraction: true,
+          autoplayDisableOnInteraction: false,
         }}
         speed={500}
         loop={true}

@@ -16,7 +16,7 @@
   top: 4rem;
   z-index: 999;
   padding: 0 40rem;
-  border-bottom: 1px solid $dark;
+  border-bottom: 0.5px solid $dark;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -107,7 +107,7 @@
       flex: 4;
       display: flex;
       justify-content: center;
-      gap: 1.5rem;
+      gap: 2.5rem;
       align-items: center;
       // transition: all 0.2s ease-in-out;
 
@@ -143,6 +143,12 @@
       transition: all 0.2s ease-in-out;
       padding: 0 1rem;
 
+      h3 {
+        @include respond(tab-land) {
+          font-size: 3rem;
+        }
+      }
+
       @include respond(tab-land) {
         padding: 0;
       }
@@ -176,7 +182,7 @@
       justify-content: flex-end;
       gap: 1rem;
       align-items: center;
-      color: $pri;
+      color: $dark;
 
       & img {
         width: 2rem;
@@ -214,6 +220,7 @@
   width: 100vw;
   height: 5rem;
   top: 12rem;
+  border-bottom: 0.5px solid $dark;
 
   span {
     text-decoration: underline;

@@ -10,7 +10,7 @@ const NavItem = ({ href, name, active }) => {
           active ? `${styles['header__nav--link-active']}` : ''
         }`}
       >
-        {name}
+        <h3>{name}</h3>
       </a>
     </Link>
   );

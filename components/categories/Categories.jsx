@@ -42,6 +42,8 @@ const Categories = () => {
                 alt="category"
                 layout="fill"
                 objectFit="contain"
+                blurDataURL={item.img}
+                placeholder="blur"
               />
               <h2>{item.title}</h2>
             </div>

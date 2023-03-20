@@ -25,6 +25,8 @@ const FeaturedProducts = () => {
                     alt="product"
                     layout="fill"
                     objectFit="cover"
+                    blurDataURL={card.img}
+                    placeholder="blur"
                   />
                 </div>
               </div>

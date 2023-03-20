@@ -1,0 +1,57 @@
+@import 'variables';
+
+.gallery {
+  min-height: 100vh;
+
+  h1 {
+    margin: 6rem 0;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  &__container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+    margin: 6rem 0;
+  }
+
+  &__container > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__imgContainer {
+    position: relative;
+    box-shadow: $sha;
+
+    img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+  }
+
+  &__container &__tall {
+    grid-row: span 2;
+  }
+  &__container &__wide {
+    grid-column: span 2;
+  }
+  &__container &__big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}

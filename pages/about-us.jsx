@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@/components/layout/Layout';
+import HeadingTitle from '@/components/headingTitle/HeadingTitle';
 
 const about = () => {
   return (
@@ -8,7 +9,7 @@ const about = () => {
       title="All about us"
     >
       <div className="container">
-        <h1>about</h1>
+        <HeadingTitle>About Us</HeadingTitle>
       </div>
     </Layout>
   );

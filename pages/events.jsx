@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@/components/layout/Layout';
+import HeadingTitle from '@/components/headingTitle/HeadingTitle';
 
 const events = () => {
   return (
@@ -8,7 +9,9 @@ const events = () => {
       title="Where we'll be!"
     >
       <div className="container">
-        <h1>events</h1>
+        <HeadingTitle>
+          Leopardi will be at the following events this year:
+        </HeadingTitle>
       </div>
     </Layout>
   );

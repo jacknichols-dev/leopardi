@@ -1,3 +1,4 @@
+import HeadingTitle from '@/components/headingTitle/HeadingTitle';
 import Layout from '@/components/layout/Layout';
 import React from 'react';
 
@@ -8,7 +9,7 @@ const contact = () => {
       title="Contact us"
     >
       <div className="container">
-        <h1>contact</h1>
+        <HeadingTitle>Contact Us</HeadingTitle>
       </div>
     </Layout>
   );

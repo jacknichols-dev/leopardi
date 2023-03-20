@@ -22,7 +22,11 @@ const header = ({ active }) => {
     <>
       <div className={styles['header-container']}>
         <div className={styles.topmenu}>
-          <p>Free UK Delivery From Our Etsy Store.</p>
+          <p>
+            Free UK Delivery{' '}
+            <span className={styles.topmenu__hidden}>From Our Etsy Store.</span>{' '}
+            <span className={styles.topmenu__link}>Shop Here</span>
+          </p>
         </div>
         <header
           className={
@@ -35,20 +39,6 @@ const header = ({ active }) => {
             <Navbar scrollActive={scrolled} navActive={active} />
           </div>
         </header>
-        <div
-          className={
-            scrolled
-              ? `${styles['submenu__scrolled']} ${styles['submenu']}`
-              : `${styles['submenu']}`
-          }
-        >
-          <div className="container">
-            <p>
-              You can purchase our products on our Etsy store -{' '}
-              <span>Shop Here</span>
-            </p>
-          </div>
-        </div>
       </div>
     </>
   );

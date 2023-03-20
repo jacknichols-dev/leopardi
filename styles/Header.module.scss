@@ -2,7 +2,7 @@
 
 .header-container {
   display: relative;
-  height: 17rem;
+  height: 14rem;
   background-color: white;
 
   @include respond(tab-land) {
@@ -12,11 +12,11 @@
 .header {
   position: fixed;
   width: 100%;
-  height: 8rem;
+  height: 10rem;
   top: 4rem;
   z-index: 999;
   padding: 0 40rem;
-  border-bottom: 0.5px solid $dark;
+  // border-bottom: 0.5px solid $dark;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -161,20 +161,6 @@
         color: $pri;
       }
     }
-    // &--link-active {
-    // font-weight: bold;
-    // color: $dark;
-    // }
-
-    // &--backdrop {
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   width: 100vw;
-    //   height: 100vh;
-    //   background: rgba(0, 0, 0, 0.5);
-    //   z-index: 99;
-    // }
 
     &--email {
       display: flex;
@@ -204,30 +190,20 @@
   align-items: center;
   justify-content: center;
   background-color: $pink;
-  // border-bottom: 1px solid $dark;
   height: 4rem;
   text-align: center;
   width: 100vw;
   z-index: 99;
   left: 0;
-}
 
-.submenu {
-  background-color: white;
-  padding: 1rem 0;
-  text-align: center;
-  position: relative;
-  width: 100vw;
-  height: 5rem;
-  top: 12rem;
-  border-bottom: 0.5px solid $dark;
-
-  span {
+  &__link {
     text-decoration: underline;
     font-weight: bold;
   }
 
-  @include respond(tab-land) {
-    display: none;
+  &__hidden {
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 }

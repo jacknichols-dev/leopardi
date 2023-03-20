@@ -18,7 +18,7 @@ const Footer = () => {
           <Image
             src="/assets/leopardi-icon.png"
             width="120%"
-            height="70%"
+            height="65%"
             alt="icon"
           ></Image>
           <span className={styles['footer__top--right']}></span>

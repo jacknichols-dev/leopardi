@@ -9,7 +9,9 @@ const Layout = ({ content, title, children }) => {
     <>
       <Head>
         <title>
-          {title ? 'Leopardi - ' + title : 'Leopardi - Occasion Wear'}
+          {title
+            ? 'Leopardi - ' + title
+            : 'Leopardi - Clothing For Any Occasion'}
         </title>
         <meta
           name="description"

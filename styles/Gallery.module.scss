@@ -46,12 +46,27 @@
 
   &__container &__tall {
     grid-row: span 2;
+
+    @include respond(phone) {
+      grid-row: span 1;
+    }
   }
+
   &__container &__wide {
     grid-column: span 2;
+
+    @include respond(phone) {
+      grid-column: span 1;
+    }
   }
+
   &__container &__big {
     grid-column: span 2;
     grid-row: span 2;
+
+    @include respond(phone) {
+      grid-row: span 1;
+      grid-column: span 1;
+    }
   }
 }

@@ -2,11 +2,11 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import styles from '../../../styles/Header.module.scss';
 import logo from '../../../public/assets/leopardi-logo.svg';
-import mail from '../../../public/assets/email_outline.svg';
 import NavItem from '../navItem/NavItem';
 import Image from 'next/image';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
-// import Btn from '../../btn/Btn';
+import { CiFacebook } from 'react-icons/ci';
+import { FaEtsy } from 'react-icons/fa';
 
 const MENU_LIST = [
   {
@@ -23,10 +23,10 @@ const MENU_LIST = [
   },
   {
     name: 'About Us',
-    href: '/about-us',
+    href: '/about',
   },
   {
-    name: 'Contact Us',
+    name: 'Contact',
     href: '/contact',
   },
 ];
@@ -48,7 +48,6 @@ const Navbar = ({ scrollActive }) => {
                   ? `${styles['header__nav--logo-scrolled']} ${styles['header__nav--logo']}`
                   : `${styles['header__nav--logo']}`
               }
-              // layout="fill"
               width="auto"
               height="auto"
               alt="Leopardi logo"
@@ -106,15 +105,9 @@ const Navbar = ({ scrollActive }) => {
             </div>
           ))}
         </div>
-        <div className={styles['header__nav--email']}>
-          <Image
-            src={mail}
-            // layout="fill"
-            width="auto"
-            height="auto"
-            alt="mail icon"
-          />
-          <h3>leopardi@sky.com</h3>
+        <div className={styles['header__nav--socials']}>
+          <CiFacebook size="3rem" />
+          <FaEtsy size="2rem" />
         </div>
       </nav>
       <div

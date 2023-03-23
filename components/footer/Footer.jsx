@@ -33,7 +33,9 @@ const Footer = () => {
         <div className={`${styles['footer__bottom--content']} ${'container'}`}>
           <div className={styles['footer__bottom--left']}>
             <p>
-              <strong>© Leopardi 2023. All rights reserved.</strong>{' '}
+              <strong>
+                © Leopardi {new Date().getFullYear()}. All rights reserved.
+              </strong>{' '}
               {/* |
               <small style={{ color: '#f0b020' }}>
                 {' '}

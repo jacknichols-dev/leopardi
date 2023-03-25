@@ -25,10 +25,9 @@ const contact = () => {
             <div className="container">
               <HeadingTitle>Contact Us</HeadingTitle>
               <p>
-                // eslint-disable-next-line react/no-unescaped-entities Let us
-                know what your needs are, we'll reply as soon as possible with a
-                quote and arrange a suitable time to come to the site to assess
-                the job.
+                Let us know what your needs are, we will reply as soon as
+                possible with a quote and arrange a suitable time to come to the
+                site to assess the job.
               </p>
             </div>
           </div>

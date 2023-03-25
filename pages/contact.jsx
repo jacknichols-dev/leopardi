@@ -9,21 +9,6 @@ import HeadingTitle from '../components/headingTitle/HeadingTitle';
 // import ContactInfo from '../components/contactInfo/ContactInfo';
 
 const contact = () => {
-  const HELPER_ITEMS = [
-    {
-      text: 'Where is the site?',
-    },
-    {
-      text: 'What type of building is it?',
-    },
-    {
-      text: 'When do you need us to start?',
-    },
-    {
-      text: 'Any deadlines required?',
-    },
-  ];
-
   return (
     <>
       <Head>
@@ -40,9 +25,10 @@ const contact = () => {
             <div className="container">
               <HeadingTitle>Contact Us</HeadingTitle>
               <p>
-                Let us know what your needs are, we'll reply as soon as possible
-                with a quote and arrange a suitable time to come to the site to
-                assess the job.
+                // eslint-disable-next-line react/no-unescaped-entities Let us
+                know what your needs are, we'll reply as soon as possible with a
+                quote and arrange a suitable time to come to the site to assess
+                the job.
               </p>
             </div>
           </div>

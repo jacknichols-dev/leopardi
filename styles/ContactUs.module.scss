@@ -1,0 +1,80 @@
+@import 'variables.scss';
+
+.contact {
+  background-color: white;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  &__form {
+    padding: 3rem;
+    width: 100%;
+    position: relative;
+
+    h2 {
+      padding-bottom: 5rem;
+
+      @include respond(tab-port) {
+        padding-bottom: 3rem;
+      }
+    }
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  &__element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 3rem;
+
+    @include respond(tab-land) {
+      padding-bottom: 2rem;
+    }
+
+    &--names {
+      display: flex;
+      gap: 3rem;
+
+      @include respond(tab-land) {
+        flex-wrap: wrap;
+        gap: 0;
+      }
+    }
+
+    input,
+    textarea {
+      border: 1px solid $pri;
+
+      &:focus-visible {
+        outline: none;
+        background-color: $light;
+      }
+    }
+
+    textarea {
+      height: 100%;
+      width: 100%;
+      font-size: 1.7rem;
+      padding: 1rem;
+      resize: vertical;
+    }
+
+    label {
+      padding-bottom: 1rem;
+    }
+
+    input {
+      height: 4.5rem;
+      padding: 0 1rem;
+      font-size: 1.7rem;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import 'variables';
+
+.contactpage {
+  &__header {
+    height: 100%;
+    padding: 7rem 0;
+    color: $dark;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include respond(tab-land) {
+      padding-bottom: 3rem;
+    }
+
+    h1 {
+      padding-bottom: 1rem;
+    }
+
+    p {
+      width: 80rem;
+      margin: auto;
+
+      @include respond(tab-land) {
+        width: 90%;
+      }
+    }
+  }
+
+  &__main-content {
+    display: flex;
+    margin-bottom: 6rem;
+    // margin: $margin;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+    }
+  }
+
+  &__left {
+    flex: 1;
+    z-index: 9999;
+  }
+  &__right {
+    flex: 1;
+    background-color: $light;
+    padding: 3rem;
+
+    &--content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--list {
+      margin-top: 3rem;
+      position: relative;
+      height: 100%;
+    }
+
+    &--header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}

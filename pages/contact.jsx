@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import styles from '../styles/ContactPage.module.scss';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import ContactUs from '../components/contactUs/ContactUs';
 import check from '../public/assets/Icon-check-square.png';
 import HeadingTitle from '../components/headingTitle/HeadingTitle';

@@ -27,7 +27,7 @@ const Categories = () => {
   return (
     <div className={styles.categories}>
       <div className="container">
-        <HeadingTitle color="#14583f">Our Categories</HeadingTitle>
+        <HeadingTitle>Our Categories</HeadingTitle>
 
         <Carousel
           responsive={responsive}

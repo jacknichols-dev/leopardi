@@ -5,6 +5,7 @@ import Image from 'next/legacy/image';
 import React from 'react';
 import styles from '../styles/Gallery.module.scss';
 import { GALLERY } from '../data/galleryData';
+import OurCustomers from '../components/ourCustomers/OurCustomers';
 
 const gallery = () => {
   return (
@@ -49,6 +50,8 @@ const gallery = () => {
               </div>
             ))}
           </div>
+          <HeadingTitle>Our Happy Customers</HeadingTitle>
+          <OurCustomers />
         </div>
       </div>
     </Layout>

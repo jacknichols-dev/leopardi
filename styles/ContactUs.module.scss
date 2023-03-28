@@ -52,6 +52,8 @@
     input,
     textarea {
       border: 1px solid $pri;
+      -webkit-appearance: none;
+      border-radius: 0;
 
       &:focus-visible {
         outline: none;

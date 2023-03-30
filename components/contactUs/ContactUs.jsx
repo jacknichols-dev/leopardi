@@ -66,7 +66,6 @@ const ContactUs = ({ title, shadow }) => {
   return (
     <div style={{ boxShadow: shadow }} className={styles.contact}>
       <form ref={form} onSubmit={sendEmail} className={styles.contact__form}>
-        <h2>{title}</h2>
         <div className={styles['contact__element--names']}>
           <InputField
             value={values.firstName}

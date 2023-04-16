@@ -112,6 +112,6 @@ export default ContactUs;
 const renderAlert = () => (
   <div className="success">
     <Image src={success} alt="check" />
-    <p>Thank you, your message submitted successfully!</p>
+    <h3>Thank you, your message submitted successfully!</h3>
   </div>
 );

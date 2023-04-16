@@ -21,10 +21,10 @@ const MENU_LIST = [
     name: 'Events',
     href: '/events',
   },
-  {
-    name: 'About Us',
-    href: '/about',
-  },
+  // {
+  //   name: 'About Us',
+  //   href: '/about',
+  // },
   {
     name: 'Contact',
     href: '/contact',
@@ -60,7 +60,9 @@ const Navbar = ({ scrollActive }) => {
               setNavActive(!navActive);
             }}
             className={styles['header__nav--bars']}
-            style={{ display: navActive ? 'none' : 'flex' }}
+            style={{
+              display: navActive ? 'none' : 'flex',
+            }}
           >
             <span
               className={`${styles['header__nav--bar']} ${styles['bar1']}`}

@@ -2,9 +2,8 @@
 
 .footer {
   width: 100%;
-  background-color: white;
   min-height: calc(100% - 14rem);
-  padding: 0 0 7rem 0;
+  padding: 6rem 0;
   z-index: 9999;
 
   &__top {
@@ -27,6 +26,10 @@
       width: 100%;
       background: $dark;
     }
+  }
+
+  &__content {
+    display: flex;
   }
 
   &__left {
@@ -56,7 +59,7 @@
         font-weight: 600;
         padding-bottom: 1rem;
         transition: all 0.2s ease-in-out;
-        color: white;
+        color: $dark;
       }
 
       li {
@@ -71,8 +74,6 @@
       display: flex;
       gap: 1rem;
       align-items: center;
-      // align-items: center;
-      // padding-bottom: 2rem;
 
       img {
         padding-bottom: 1rem;
@@ -137,7 +138,7 @@
     }
 
     p {
-      color: white;
+      color: $dark;
       padding: 3rem 0;
     }
   }

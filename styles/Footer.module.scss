@@ -43,6 +43,8 @@
     }
 
     &--item {
+      padding: 2rem 0;
+
       @include respond(tab-port) {
         text-align: center;
       }
@@ -51,7 +53,7 @@
       }
 
       h2 {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
 
       p,

@@ -30,6 +30,12 @@
 
   &__content {
     display: flex;
+    flex: wrap;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__left {
@@ -44,6 +50,10 @@
 
     &--item {
       padding: 2rem 0;
+
+      @include respond(tab-land) {
+        text-align: center;
+      }
 
       @include respond(tab-port) {
         text-align: center;

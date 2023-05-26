@@ -15,13 +15,13 @@ export const HERO_SLIDES = [
   {
     id: 3,
     bgImg: '/assets/banner-3.jpg',
-    title: 'Check Out Our Etsy Store',
+    title: 'Extravagant Occasionwear. A Fashion Voyage.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 4,
     bgImg: '/assets/banner-1.jpg',
-    title: 'Check Out Our Etsy Store',
+    title: 'Timeless Womens Apparel',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
 ];

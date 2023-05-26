@@ -3,6 +3,7 @@ import Layout from '@/components/layout/Layout';
 import HeadingTitle from '@/components/headingTitle/HeadingTitle';
 import styles from '../styles/Events.module.scss';
 import Image from 'next/legacy/image';
+import EtsyCta from '../components/welcome/EtsyCta';
 
 const events = () => {
   return (
@@ -12,11 +13,16 @@ const events = () => {
     >
       <div className={styles.events}>
         <div className="container">
-          <HeadingTitle>
-            Leopardi will be at the following events in{' '}
-            {new Date().getFullYear()}
-          </HeadingTitle>
-          <div className={styles.events__content}>
+          <div style={{ margin: '6rem 0' }}>
+            <HeadingTitle>
+              Leopardi will be at the following events in{' '}
+              {new Date().getFullYear()}
+            </HeadingTitle>
+          </div>
+          <div
+            className={styles.events__content}
+            style={{ marginBottom: '5rem' }}
+          >
             <div className={styles['events__content--left']}>
               <p>
                 <span>4th April:</span>4th April: LadyTaverners Luncheon at The
@@ -60,6 +66,7 @@ const events = () => {
               />
             </div>
           </div>
+          <EtsyCta />
         </div>
       </div>
     </Layout>

@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from '@/styles/Home.module.scss';
-import Image from 'next/legacy/image';
-import Button from '../button/Button';
+import EtsyCta from './EtsyCta';
 
 const WelcomeSection = () => {
   return (
@@ -30,31 +29,8 @@ const WelcomeSection = () => {
             dressing gowns
           </p>
         </div>
-        <div className={styles.welcome__right}>
-          <Image
-            src="/assets/gallery-img-5.png"
-            alt="welcome"
-            layout="fill"
-            objectFit="cover"
-          />
-          <div className={styles['welcome__right--text']}>
-            <h1>
-              Check Out Our <br></br>{' '}
-              <span style={{ color: 'orange' }}>Etsy Store</span>
-            </h1>
-            <Button>Go To Our Etsy</Button>
-          </div>
 
-          <div
-            className=""
-            style={{
-              background: 'black',
-              opacity: '.5',
-              height: '100%',
-              width: '100%',
-            }}
-          ></div>
-        </div>
+        <EtsyCta />
       </div>
     </div>
   );

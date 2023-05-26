@@ -50,7 +50,8 @@
       display: none;
     }
 
-    &--text {
+    &--text,
+    a {
       position: absolute;
       color: white;
       z-index: 999;

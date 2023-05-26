@@ -32,6 +32,11 @@
       transform: scale(1.1);
     }
 
+    &:hover .featured__card--footer-link {
+      background-color: $pri;
+      color: white;
+    }
+
     &--img-container {
       position: relative;
       height: 40rem;
@@ -71,6 +76,7 @@
       bottom: 0;
       padding: 1rem 0;
       text-align: center;
+      transition: all 0.2s;
     }
   }
 }

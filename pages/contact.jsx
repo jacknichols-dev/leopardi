@@ -47,7 +47,7 @@ const contact = () => {
                   </div>
                   <div className={styles['contactpage__right--list']}>
                     <Image
-                      src="/assets/banner-1.jpg"
+                      src="/assets/product-2.jpg"
                       alt="contact"
                       layout="fill"
                       objectFit="cover"

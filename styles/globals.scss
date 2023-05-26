@@ -218,18 +218,20 @@ ul {
   padding: 1.5rem 2rem;
   font-family: 'EB Garamond', serif;
   font-weight: 700;
-  background: $dark;
-  color: white;
+  background: $pink;
+  color: $dark;
   font-size: 1.9rem;
   cursor: pointer;
   transition: all 0.2s;
   overflow: hidden;
   outline: none;
-  border: none;
+  border: 1px solid $dark;
   position: relative;
 
   &:hover {
     background-color: $pri !important;
+    color: white !important;
+    border: 1px solid transparent;
   }
 }
 

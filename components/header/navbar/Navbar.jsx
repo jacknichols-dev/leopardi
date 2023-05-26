@@ -108,8 +108,20 @@ const Navbar = ({ scrollActive }) => {
           ))}
         </div>
         <div className={styles['header__nav--socials']}>
-          <CiFacebook size="3rem" />
-          <FaEtsy size="2rem" />
+          <a
+            href="https://www.facebook.com/leopardiclothing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiFacebook size="3rem" />
+          </a>
+          <a
+            href="https://www.etsy.com/uk/shop/LeopardiUK"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaEtsy size="2rem" />
+          </a>
         </div>
       </nav>
       <div

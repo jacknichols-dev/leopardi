@@ -7,7 +7,7 @@ const header = ({ active }) => {
   const [scrolled, setScrolled] = useState(false);
 
   const navScrollHandler = () => {
-    if (window.scrollY >= 280) {
+    if (window.scrollY >= 100) {
       setScrolled(true);
     } else {
       setScrolled(false);
@@ -22,11 +22,19 @@ const header = ({ active }) => {
     <>
       <div className={styles['header-container']}>
         <div className={styles.topmenu}>
-          <p>
-            Free UK Delivery{' '}
-            <span className={styles.topmenu__hidden}>From Our Etsy Store.</span>{' '}
-            <span className={styles.topmenu__link}>Shop Here</span>
-          </p>
+          <a
+            href="https://www.etsy.com/uk/shop/LeopardiUK"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>
+              Free UK Delivery{' '}
+              <span className={styles.topmenu__hidden}>
+                From Our Etsy Store.
+              </span>{' '}
+              <span className={styles.topmenu__link}>Shop Here</span>
+            </p>
+          </a>
         </div>
         <header
           className={

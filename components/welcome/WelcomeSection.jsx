@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '@/styles/Home.module.scss';
 import Image from 'next/legacy/image';
-import HeadingTitle from '../headingTitle/HeadingTitle';
+import Button from '../button/Button';
 
 const WelcomeSection = () => {
   return (
@@ -32,11 +32,19 @@ const WelcomeSection = () => {
         </div>
         <div className={styles.welcome__right}>
           <Image
-            src="/assets/welcome-img.png"
+            src="/assets/gallery-img-5.png"
             alt="welcome"
             layout="fill"
             objectFit="cover"
           />
+          <div className={styles['welcome__right--text']}>
+            <h1>
+              Check Out Our <br></br>{' '}
+              <span style={{ color: 'orange' }}>Etsy Store</span>
+            </h1>
+            <Button>Go To Our Etsy</Button>
+          </div>
+
           <div
             className=""
             style={{

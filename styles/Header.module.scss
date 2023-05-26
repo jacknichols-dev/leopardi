@@ -193,6 +193,11 @@
   z-index: 99999;
   left: 0;
 
+  p {
+    padding: 1rem;
+    cursor: pointer;
+  }
+
   &__link {
     text-decoration: underline;
     font-weight: bold;

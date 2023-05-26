@@ -18,24 +18,26 @@ const FeaturedProducts = () => {
         <div className={styles.featured__cards}>
           {CARDS.map((card) => (
             <div key={card.id} className={styles.featured__card}>
-              <div className={styles['featured__card--img-container']}>
-                <div className={styles['featured__card--img']}>
-                  <Image
-                    src={card.img}
-                    alt="product"
-                    layout="fill"
-                    objectFit="cover"
-                    blurDataURL={card.img}
-                    placeholder="blur"
-                  />
+              <a href={card.link} target="_blank" rel="noopener noreferrer">
+                <div className={styles['featured__card--img-container']}>
+                  <div className={styles['featured__card--img']}>
+                    <Image
+                      src={card.img}
+                      alt="product"
+                      layout="fill"
+                      objectFit="cover"
+                      blurDataURL={card.img}
+                      placeholder="blur"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className={styles['featured__card--footer']}>
-                <h2>{card.title}</h2>
-                <div className={styles['featured__card--footer-link']}>
-                  <p>Click to view on Etsy</p>
+                <div className={styles['featured__card--footer']}>
+                  <h2>{card.title}</h2>
+                  <div className={styles['featured__card--footer-link']}>
+                    <p>Click to view on Etsy</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>

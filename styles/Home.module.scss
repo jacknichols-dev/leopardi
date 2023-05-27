@@ -15,6 +15,10 @@
   margin: 3rem 0;
   flex-wrap: wrap;
 
+  @include respond(tab-land) {
+    flex-direction: column;
+  }
+
   &__left {
     flex: 2;
     text-align: left;
@@ -47,7 +51,8 @@
     height: 30rem;
 
     @include respond(tab-land) {
-      display: none;
+      flex: none;
+      width: 100%;
     }
 
     &--text,

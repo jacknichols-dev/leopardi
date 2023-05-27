@@ -3,8 +3,23 @@
 .gallery {
   min-height: 100vh;
 
-  p {
-    text-align: center;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+    }
+
+    p {
+      flex: 2;
+
+      @include respond(tab-land) {
+        text-align: center;
+      }
+    }
   }
 
   &__container {

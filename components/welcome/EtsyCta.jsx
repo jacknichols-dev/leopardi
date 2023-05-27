@@ -15,7 +15,7 @@ const EtsyCta = () => {
         />
         <div className={styles['welcome__right--text']}>
           <h1>
-            View Our Range On <br></br>{' '}
+            View Our Range On <br></br>
             <span style={{ color: 'orange' }}>Etsy.</span>
           </h1>
           <a

@@ -21,9 +21,8 @@ const WelcomeSection = () => {
             since 1998 and have had stalls at many charity fairs, shows and
             luncheons around the country. Through these fairs we have donated
             ten per cent of our turnover to many charities.
-          </p>
-          <br></br>
-          <p>
+            <br></br>
+            <br></br>
             We are a fantastic choice for occasion-wear with bespoke hand picked
             collections of silk jackets, coats, dresses, kimonos and silk
             dressing gowns

@@ -15,8 +15,8 @@ const EtsyCta = () => {
         />
         <div className={styles['welcome__right--text']}>
           <h1>
-            Check Out Our <br></br>{' '}
-            <span style={{ color: 'orange' }}>Etsy Store</span>
+            View Our Range On <br></br>{' '}
+            <span style={{ color: 'orange' }}>Etsy.</span>
           </h1>
           <a
             href="https://www.etsy.com/uk/shop/LeopardiUK"
@@ -24,7 +24,7 @@ const EtsyCta = () => {
             rel="noopener noreferrer"
             style={{ display: 'inline', position: 'relative' }}
           >
-            <Button>Go To Our Etsy</Button>
+            <Button>Shop Now</Button>
           </a>
         </div>
 

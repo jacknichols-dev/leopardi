@@ -2,7 +2,7 @@ export const HERO_SLIDES = [
   {
     id: 1,
     bgImg: '/assets/banner-1.jpg',
-    title: 'Check Out Our Etsy Store',
+    title: 'Check Out Our Range On Etsy',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {

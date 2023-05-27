@@ -41,8 +41,8 @@ const contact = () => {
                   <div className={styles['contactpage__right--header']}>
                     <h1>How Can We Help?</h1>
                     <p>
-                      A member of our helpfull staff will reply to any query as
-                      soon as possile.
+                      A member of our team will reply to any query as soon as
+                      possible.
                     </p>
                   </div>
                   <div className={styles['contactpage__right--list']}>

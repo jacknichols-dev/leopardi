@@ -37,15 +37,21 @@ const Categories = () => {
         >
           {CATEGORIES.map((item, index) => (
             <div key={index} className={styles.categories__card}>
-              <Image
-                src={item.img}
-                alt="category"
-                layout="fill"
-                objectFit="contain"
-                blurDataURL={item.img}
-                placeholder="blur"
-              />
-              <h2>{item.title}</h2>
+              <a
+                href="https://www.etsy.com/uk/shop/LeopardiUK"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={item.img}
+                  alt="category"
+                  layout="fill"
+                  objectFit="contain"
+                  blurDataURL={item.img}
+                  placeholder="blur"
+                />
+                <h2>{item.title}</h2>
+              </a>
             </div>
           ))}
         </Carousel>

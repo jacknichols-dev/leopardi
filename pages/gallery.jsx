@@ -65,7 +65,7 @@ const gallery = () => {
               </div>
             ))}
           </div>
-          <HeadingTitle>Our Happy Customers</HeadingTitle>
+          <HeadingTitle>Our Customers</HeadingTitle>
           <OurCustomers />
         </div>
       </div>

@@ -57,7 +57,13 @@ const FeaturedProducts = () => {
           the button below to view our offerings.
         </p>
         <div className="" style={{ textAlign: 'center' }}>
-          <Button>Shop Now</Button>
+          <a
+            href="https://www.etsy.com/uk/shop/LeopardiUK"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>Shop Now</Button>
+          </a>
         </div>
       </div>
     </div>

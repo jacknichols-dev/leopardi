@@ -1,7 +1,7 @@
 export const HERO_SLIDES = [
   {
     id: 1,
-    bgImg: '/assets/banner-1.jpg',
+    bgImg: '/assets/banner-1.png',
     title: 'Check Out Our Range On Etsy',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
@@ -14,7 +14,7 @@ export const HERO_SLIDES = [
   },
   {
     id: 3,
-    bgImg: '/assets/banner-3.jpg',
+    bgImg: '/assets/banner-3.png',
     title: 'Extravagant Occasionwear. A Fashion Voyage.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },

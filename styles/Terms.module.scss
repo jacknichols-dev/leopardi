@@ -1,0 +1,14 @@
+@import 'variables';
+
+.terms {
+  text-align: center;
+
+  &__heading {
+    margin: 5rem 0;
+  }
+
+  h2 {
+    margin: 3rem 0;
+    color: $pri;
+  }
+}

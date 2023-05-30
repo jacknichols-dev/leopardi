@@ -20,8 +20,8 @@ export const HERO_SLIDES = [
   },
   {
     id: 4,
-    bgImg: '/assets/banner-1.jpg',
-    title: 'Timeless Womens Apparel',
+    bgImg: '/assets/banner-4.png',
+    title: 'Timeless Womens Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
 ];

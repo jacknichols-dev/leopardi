@@ -72,7 +72,9 @@ const Footer = () => {
           </div>
           <div className={styles['footer__bottom--right']}>
             <ul>
-              <li>Terms & Conditions</li>
+              <Link href={'/terms'}>
+                <li>Terms & Conditions</li>
+              </Link>
             </ul>
           </div>
         </div>

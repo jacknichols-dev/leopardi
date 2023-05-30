@@ -20,14 +20,6 @@ const terms = () => {
             82, High Street, Girton, Cambridge, CB3 0QL.
           </p>
 
-          <h2>CONTRACT EXECUTION</h2>
-
-          <p>
-            Your personal data will be used to provide the information, goods
-            and services offered through our website to you, for billing and
-            order fulfillment.
-          </p>
-
           <h2>RIGHT TO CANCEL</h2>
 
           <p>
@@ -37,7 +29,7 @@ const terms = () => {
             you are in possession of the goods you are under the duty to retain
             them and take reasonable care of them. You must send the goods back
             to us to our contact address (82 High Street, Girton, Cambridge, CB3
-            0QL) at your own cost (unles we delivered the item to you in error
+            0QL) at your own cost (unless we delivered the item to you in error
             or the item is damaged or defective) as soon as possible once you
             have canceled the contract.
             <br></br>

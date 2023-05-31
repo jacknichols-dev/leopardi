@@ -12,7 +12,7 @@ const gallery = () => {
   return (
     <Layout
       content="This is the scaffolding page for Riverport Scaffolding website"
-      title="Gallery Page"
+      title="Showcasing our products"
     >
       <div className="container">
         <div className={styles.gallery}>
@@ -33,7 +33,11 @@ const gallery = () => {
               ten per cent of our turnover to many charities.
             </p>
             <div style={{ flex: '1', width: '100%' }}>
-              <EtsyCta />
+              <EtsyCta
+                pic="/assets/jackets.jpg"
+                text1="Interested In Our Ranges?"
+                text2="See Our Products"
+              />
             </div>
           </div>
 

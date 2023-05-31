@@ -3,20 +3,15 @@ import Image from 'next/legacy/image';
 import Button from '../button/Button';
 import styles from '@/styles/Home.module.scss';
 
-const EtsyCta = () => {
+const EtsyCta = ({ pic, text1, text2 }) => {
   return (
     <div className={styles.welcome__right}>
       <>
-        <Image
-          src="/assets/gallery-img-5.png"
-          alt="welcome"
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src={pic} alt="welcome" layout="fill" objectFit="cover" />
         <div className={styles['welcome__right--text']}>
           <h1>
-            View Our Range On <br></br>
-            <span style={{ color: 'orange' }}>Etsy.</span>
+            {text1} <br></br>
+            <span style={{ color: 'orange' }}>{text2}</span>
           </h1>
           <a
             href="https://www.etsy.com/uk/shop/LeopardiUK"

@@ -18,7 +18,7 @@ const contact = () => {
 
       <Layout
         content="This is the contact page for this website"
-        title="Contact Page"
+        title="Contact us."
       >
         <div className={styles.contactpage}>
           <div className={styles.contactpage__header}>
@@ -47,7 +47,7 @@ const contact = () => {
                   </div>
                   <div className={styles['contactpage__right--list']}>
                     <Image
-                      src="/assets/leopardi-contact-pic.png"
+                      src="/assets/gallery-img-10.png"
                       alt="contact"
                       layout="fill"
                       objectFit="cover"

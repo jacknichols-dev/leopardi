@@ -29,7 +29,11 @@ const WelcomeSection = () => {
           </p>
         </div>
 
-        <EtsyCta />
+        <EtsyCta
+          pic="/assets/gallery-img-5.png"
+          text1="View Our Range In Our"
+          text2="Etsy Store"
+        />
       </div>
     </div>
   );

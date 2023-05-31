@@ -9,7 +9,7 @@ const events = () => {
   return (
     <Layout
       content="This is the events page for where we will have stalls throughout the year."
-      title="Where we'll be!"
+      title="Where you can find us!"
     >
       <div className={styles.events}>
         <div className="container">
@@ -59,14 +59,18 @@ const events = () => {
             </div>
             <div className={styles['events__content--right']}>
               <Image
-                src="/assets/gallery-img-10.png"
+                src="/assets/leopardi-contact-pic.png"
                 alt="events"
                 layout="fill"
                 objectFit="cover"
               />
             </div>
           </div>
-          <EtsyCta />
+          <EtsyCta
+            pic="/assets/banner-1.png"
+            text1="Want to See All Our Offerings?"
+            text2="Check Out Our Etsy Store."
+          />
         </div>
       </div>
     </Layout>

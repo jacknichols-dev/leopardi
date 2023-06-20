@@ -49,6 +49,8 @@ const contact = () => {
                     <Image
                       src="/assets/leopardi-contact-pic.webp"
                       alt="contact"
+                      placeholder="blur"
+                      blurDataURL="/assets/leopardi-contact-pic.webp"
                       layout="fill"
                       objectFit="cover"
                     />

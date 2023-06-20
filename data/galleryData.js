@@ -9,7 +9,6 @@ export const GALLERY = [
     id: 2,
     img: '/assets/gallery-img-2.png',
     title: 'Jackets',
-    // class: 'gallery__tall',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {

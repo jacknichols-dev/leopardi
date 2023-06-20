@@ -14,13 +14,13 @@ export const HERO_SLIDES = [
   },
   {
     id: 3,
-    bgImg: '/assets/banner-3.png',
+    bgImg: '/assets/banner-3.webp',
     title: 'Extravagant Occasionwear. A Fashion Voyage.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 4,
-    bgImg: '/assets/banner-4.png',
+    bgImg: '/assets/banner-4.webp',
     title: 'Timeless Womens Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },

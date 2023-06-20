@@ -1,7 +1,7 @@
 export const GALLERY = [
   {
     id: 1,
-    img: '/assets/gallery-img-1.png',
+    img: '/assets/gallery-img-1.webp',
     title: 'Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },

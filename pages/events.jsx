@@ -59,7 +59,7 @@ const events = () => {
             </div>
             <div className={styles['events__content--right']}>
               <Image
-                src="/assets/leopardi-contact-pic.png"
+                src="/assets/jackets.jpg"
                 alt="events"
                 layout="fill"
                 objectFit="cover"

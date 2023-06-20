@@ -67,7 +67,7 @@ const events = () => {
             </div>
           </div>
           <EtsyCta
-            pic="/assets/banner-1.png"
+            pic="/assets/banner-1.webp"
             text1="Want to See All Our Offerings?"
             text2="Check Out Our Etsy Store."
           />

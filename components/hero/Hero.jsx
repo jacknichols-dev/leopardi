@@ -55,7 +55,9 @@ export const Hero = (props) => {
                 /> */}
               <div className={styles['hero__slide--text']}>
                 <h1>{slide.title}</h1>
-                <Button>Shop Now</Button>
+                <a href={slide.link} target="_blank" rel="noopener noreferrer">
+                  <Button>Shop Now</Button>
+                </a>
               </div>
             </SwiperSlide>
           </div>

@@ -6,8 +6,8 @@ import Layout from '@/components/layout/Layout';
 const terms = () => {
   return (
     <Layout
-      content="This is the scaffolding page for Riverport Scaffolding website"
-      title="Gallery Page"
+      content="This is Leopardi terms and conditions page. This page outlines all our policies."
+      title="Terms & Conditions"
     >
       <div className={styles.terms}>
         <div className="container">

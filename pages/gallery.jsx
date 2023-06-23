@@ -11,8 +11,8 @@ import EtsyCta from '../components/welcome/EtsyCta';
 const gallery = () => {
   return (
     <Layout
-      content="This is the scaffolding page for Riverport Scaffolding website"
-      title="Showcasing our products"
+      content="Browse through our image gallery showcasing our latest clothing collections. Stay up-to-date with the latest fashion trends and styles by exploring our stunning collection."
+      title="Showcasing Our Products"
     >
       <div className="container">
         <div className={styles.gallery}>

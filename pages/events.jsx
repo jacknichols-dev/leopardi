@@ -8,8 +8,8 @@ import EtsyCta from '../components/welcome/EtsyCta';
 const events = () => {
   return (
     <Layout
-      content="This is the events page for where we will have stalls throughout the year."
-      title="Where you can find us!"
+      content="Find out where we will be at upcoming events! Stay up-to-date on where to find us and what we will be showcasing by visiting this page. This is the events page for where we will have stalls throughout the year."
+      title="Events This Year"
     >
       <div className={styles.events}>
         <div className="container">

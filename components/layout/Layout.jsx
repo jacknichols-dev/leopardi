@@ -17,7 +17,7 @@ const Layout = ({ content, title, children }) => {
           content={
             content
               ? content + ' - Leopardi'
-              : 'Best Occasional Wear For Those Special Moments'
+              : 'Find luxurious occasional wear for women from our established and ethical designers. From elegant coats and jackets to night wear, discover everything you need to make your special occasion unforgettable.'
           }
         />
         <link rel="icon" href="/leopardi.ico" />

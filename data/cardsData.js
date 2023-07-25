@@ -9,7 +9,7 @@ export const CARDS = [
     id: 2,
     img: '/assets/product-2.webp',
     title: 'Ladies Cotton Dressing Gown',
-    link: 'https://www.etsy.com/uk/listing/1452022052/ladies-cotton-dressing-gown-with-blue?click_key=29206e86723e0bd67cecd32f27e62c854d622cb6%3A1452022052&click_sum=5026c16e&ref=shop_home_active_3&frs=1&sts=1',
+    link: 'https://www.etsy.com/uk/listing/1481447368/tropical-palm-print-cotton-dressing-gown?click_key=03a2f0ee134dba69a2a6b665529472ab913a5b5b%3A1481447368&click_sum=75ad1455&ref=shop_home_active_8&frs=1&sts=1',
   },
   {
     id: 3,

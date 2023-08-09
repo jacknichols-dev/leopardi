@@ -24,7 +24,7 @@ const events = () => {
           >
             <div className={styles['events__content--left']}>
               <h1 style={{ textAlign: 'center', paddingBottom: '3rem' }}>
-                Leopardi Occasional Women's Wear Will Be At These Following
+                Leopardi Occasional Women&apos;s Wear Will Be At These Following
                 Events This Year.
               </h1>
               <p>

@@ -35,7 +35,7 @@ const OurCustomers = () => {
             <div key={index} className={styles.customers__card}>
               <Image
                 src={item.img}
-                alt="category"
+                alt="silk jackets category "
                 layout="fill"
                 objectFit="contain"
                 blurDataURL={item.img}

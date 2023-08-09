@@ -35,26 +35,8 @@ export const Hero = (props) => {
                 layout="fill"
                 objectFit="cover"
               />
-              {/* <div
-                className={styles.hero__slide}
-                style={{
-                  backgroundImage: `url(${slide.bgImg})`,
-                  backgroundSize: 'cover',
-                  height: '100%',
-                  backgroundPosition: 'center',
-                }}
-              > */}
-              {/* <Image
-                  src={slide.bgImg}
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 100vw,
-                          (max-width: 1200px) 50vw,
-                          33vw"
-                  alt="banner background"
-                /> */}
               <div className={styles['hero__slide--text']}>
-                <h1>{slide.title}</h1>
+                <h2>{slide.title}</h2>
                 <a href={slide.link} target="_blank" rel="noopener noreferrer">
                   <Button>Shop Now</Button>
                 </a>

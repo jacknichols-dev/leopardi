@@ -8,15 +8,14 @@ import EtsyCta from '../components/welcome/EtsyCta';
 const events = () => {
   return (
     <Layout
-      content="Find out where we will be at upcoming events! Stay up-to-date on where to find us and what we will be showcasing by visiting this page. This is the events page for where we will have stalls throughout the year."
-      title="Events This Year"
+      content="Women's Luxurious Clothing | Find out where we will be at upcoming events! Stay up-to-date on where to find us and what we will be showcasing by visiting this page."
+      title="Women's Luxurious Clothing By Leopardi Will Make An Appearance At These shows This Year."
     >
       <div className={styles.events}>
         <div className="container">
           <div style={{ margin: '6rem 0' }}>
             <HeadingTitle>
-              Leopardi will be at the following events in{' '}
-              {new Date().getFullYear()}
+              Our Events In {new Date().getFullYear()}
             </HeadingTitle>
           </div>
           <div
@@ -24,6 +23,10 @@ const events = () => {
             style={{ marginBottom: '5rem' }}
           >
             <div className={styles['events__content--left']}>
+              <h1 style={{ textAlign: 'center', paddingBottom: '3rem' }}>
+                Leopardi Occasional Women&apos; s Wear Will Be At These
+                Following Events This Year.
+              </h1>
               <p>
                 <span>4th April:</span>4th April: LadyTaverners Luncheon at The
                 Graduate Hotel, Cambridge.

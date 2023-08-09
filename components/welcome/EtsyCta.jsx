@@ -9,10 +9,10 @@ const EtsyCta = ({ pic, text1, text2 }) => {
       <>
         <Image src={pic} alt="welcome" layout="fill" objectFit="cover" />
         <div className={styles['welcome__right--text']}>
-          <h1>
+          <h2>
             {text1} <br></br>
             <span style={{ color: 'orange' }}>{text2}</span>
-          </h1>
+          </h2>
           <a
             href="https://www.etsy.com/uk/shop/LeopardiUK"
             target="_blank"

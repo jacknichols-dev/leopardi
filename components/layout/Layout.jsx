@@ -9,14 +9,14 @@ const Layout = ({ content, title, children }) => {
       <Head>
         <title>
           {title
-            ? 'Leopardi - ' + title
-            : 'Leopardi - Clothing For Any Occasion'}
+            ? title + ' | Leopardi Clothing'
+            : 'Womens Occasional Wear Clothing | Best Quality Luxurious Clothing For Women. | Leopardi Clothing'}
         </title>
         <meta
           name="description"
           content={
             content
-              ? content + ' - Leopardi'
+              ? content + ' | Leopardi'
               : 'Find luxurious occasional wear for women from our established and ethical designers. From elegant coats and jackets to night wear, discover everything you need to make your special occasion unforgettable.'
           }
         />

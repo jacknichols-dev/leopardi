@@ -11,8 +11,8 @@ import EtsyCta from '../components/welcome/EtsyCta';
 const gallery = () => {
   return (
     <Layout
-      content="Browse through our image gallery showcasing our latest clothing collections. Stay up-to-date with the latest fashion trends and styles by exploring our stunning collection."
-      title="Showcasing Our Products"
+      content="Looking For Beautiful Occasional Wear Made From The Finest Materials? Browse through our image gallery for our latest clothing collections."
+      title="Luxurious Women's Occasional Wear Clothing | Showcasing Our Items"
     >
       <div className="container">
         <div className={styles.gallery}>
@@ -22,22 +22,27 @@ const gallery = () => {
             </HeadingTitle>
           </div>
           <div className={styles.gallery__header}>
-            <p>
-              All the fabrics used for our coats and jackets are made in
-              cashmere, merino wool, silk or block printed cotton. In addition
-              to these, we have introduced a range of colourful and easy to wear
-              Italian knitwear.<br></br>
-              <br></br> We have been a member of the Charity Fair Association
-              since 1998 and have had stalls at many charity fairs, shows and
-              luncheons around the country. Through these fairs we have donated
-              ten per cent of our turnover to many charities.
-            </p>
-            <div style={{ flex: '1', width: '100%' }}>
-              <EtsyCta
-                pic="/assets/jackets.jpg"
-                text1="Interested In Our Ranges?"
-                text2="See Our Products"
-              />
+            <div style={{ textAlign: 'center' }}>
+              <h1 style={{ paddingBottom: '3rem' }}>
+                Luxurious Women&apos;s Occasional Wear Clothing
+              </h1>
+              <p style={{ paddingBottom: '3rem' }}>
+                All the fabrics used for our coats and jackets are made in
+                cashmere, merino wool, silk or block printed cotton. In addition
+                to these, we have introduced a range of colourful and easy to
+                wear Italian knitwear.<br></br>
+                <br></br> We have been a member of the Charity Fair Association
+                since 1998 and have had stalls at many charity fairs, shows and
+                luncheons around the country. Through these fairs we have
+                donated ten per cent of our turnover to many charities.
+              </p>
+              <div style={{ flex: '1', width: '100%' }}>
+                <EtsyCta
+                  pic="/assets/jackets.jpg"
+                  text1="Interested In Our Ranges?"
+                  text2="See Our Products"
+                />
+              </div>
             </div>
           </div>
 

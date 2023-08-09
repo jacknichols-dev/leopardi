@@ -6,9 +6,9 @@ import { icon } from '../../public/assets/leopardi-icon.png';
 
 const HeadingTitle = (props) => {
   return (
-    <h1 className={styles.title} style={{ color: props.color }}>
+    <h2 className={styles.title} style={{ color: props.color }}>
       {props.children}
-    </h1>
+    </h2>
   );
 };
 

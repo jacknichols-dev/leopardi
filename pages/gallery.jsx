@@ -24,7 +24,7 @@ const gallery = () => {
           <div className={styles.gallery__header}>
             <div style={{ textAlign: 'center' }}>
               <h1 style={{ paddingBottom: '3rem' }}>
-                Luxurious Women&apos;s Occasional Wear Clothing
+                Luxurious Women's Occasional Wear Clothing
               </h1>
               <p style={{ paddingBottom: '3rem' }}>
                 All the fabrics used for our coats and jackets are made in

@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import styles from '../styles/ContactPage.module.scss';
@@ -11,27 +10,19 @@ import HeadingTitle from '../components/headingTitle/HeadingTitle';
 const contact = () => {
   return (
     <>
-      <Head>
-        <title>Contact Us Page</title>
-        <meta
-          name="description"
-          content="If you need to get in touch with us, we would be happy to help! Contact us through our website or email and we will respond to your inquiries as quickly as possible."
-        />
-      </Head>
-
       <Layout
-        content="This is the contact page for this website"
+        content="Leopardi Proffesionals For Our Womens Clothing Are Always On Hand To Help With Any Query You May Have. "
         title="Contact Us"
       >
         <div className={styles.contactpage}>
           <div className={styles.contactpage__header}>
             <div className="container">
               <HeadingTitle>Contact Us</HeadingTitle>
-              <p>
-                Let us know what your needs are, we will reply as soon as
-                possible with a quote and arrange a suitable time to come to the
-                site to assess the job.
-              </p>
+              <h1 style={{ lineHeight: '1.2', fontSize: '3rem' }}>
+                Leopardi womens clothing offers quick replies with proffesional
+                service. we are on hand to help with any question you may have.
+                Just drop us a message below.
+              </h1>
             </div>
           </div>
           <div className="container">
@@ -42,7 +33,7 @@ const contact = () => {
               <div className={styles.contactpage__right}>
                 <div className={styles['contactpage__right--content']}>
                   <div className={styles['contactpage__right--header']}>
-                    <h1>How Can We Help?</h1>
+                    <h2>How Can We Help?</h2>
                     <p>
                       A member of our team will reply to any query as soon as
                       possible.

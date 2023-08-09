@@ -66,7 +66,8 @@ const Footer = () => {
           <div className={styles['footer__bottom--left']}>
             <p>
               <strong>
-                © Leopardi {new Date().getFullYear()}. All rights reserved.
+                <small>©</small> Leopardi {new Date().getFullYear()} | All
+                rights reserved | Registered in England & Wales
               </strong>
             </p>
           </div>

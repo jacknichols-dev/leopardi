@@ -40,7 +40,7 @@ export const Hero = (props) => {
                   style={{
                     color: slide.color,
                     WebkitTextStroke: slide.outline,
-                    fontWeight: 'bold',
+                    fontWeight: slide.fontWeight,
                     width: slide.textWidth,
                   }}
                 >

@@ -7,6 +7,7 @@ export const HERO_SLIDES = [
     color: 'white',
     outline: '.5px black',
     textWidth: '50rem',
+    fontWeight: 'bold',
   },
   {
     id: 2,
@@ -17,15 +18,17 @@ export const HERO_SLIDES = [
     color: 'white',
     outline: '.5px black',
     textWidth: '80rem',
+    fontWeight: 'bold',
   },
   {
     id: 3,
     bgImg: '/assets/banner-3.webp',
     title: 'Extravagant Occasionwear. A Fashion Voyage.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
-    color: 'pink',
-    outline: '.5px black',
+    color: '#d3a166',
+    outline: '',
     textWidth: '55rem',
+    fontWeight: '300',
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const HERO_SLIDES = [
     title: 'Timeless Womens Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
     color: 'white',
-    outline: '1px black',
+    outline: '.5px black',
     textWidth: '50rem',
+    fontWeight: 'bold',
   },
 ];

@@ -36,7 +36,16 @@ export const Hero = (props) => {
                 objectFit="cover"
               />
               <div className={styles['hero__slide--text']}>
-                <h2>{slide.title}</h2>
+                <h2
+                  style={{
+                    color: slide.color,
+                    WebkitTextStroke: slide.outline,
+                    fontWeight: 'bold',
+                    width: slide.textWidth,
+                  }}
+                >
+                  {slide.title}
+                </h2>
                 <a href={slide.link} target="_blank" rel="noopener noreferrer">
                   <Button>Shop Now</Button>
                 </a>

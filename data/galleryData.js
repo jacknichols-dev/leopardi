@@ -2,18 +2,21 @@ export const GALLERY = [
   {
     id: 1,
     img: '/assets/gallery-img-1.webp',
+    alt: 'Green birds of paradise Silk and cashmere Jacket',
     title: 'Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 2,
     img: '/assets/gallery-img-2.png',
+    alt: 'Paisley merino wool Jacket in red and cream',
     title: 'Jackets',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 3,
     img: '/assets/gallery-img-3.png',
+    alt: 'Silk and cashmere pale green mid length coat',
     title: 'Dresses',
     class: 'gallery__wide',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -21,12 +24,14 @@ export const GALLERY = [
   {
     id: 4,
     img: '/assets/gallery-img-4.png',
+    alt: '100% pure wool pink jumper',
     title: 'Dressing Gowns',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 5,
     img: '/assets/gallery-img-5.png',
+    alt: 'Silk jacket in cream with floral pattern',
     title: 'Coats',
     // class: 'gallery__wide',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -34,6 +39,7 @@ export const GALLERY = [
   {
     id: 6,
     img: '/assets/gallery-img-6.png',
+    alt: 'group of ladies wearing leopardi Silk and cashmere Jackets in various colourways',
     title: 'Jackets',
     class: 'gallery__wide',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -41,6 +47,7 @@ export const GALLERY = [
   {
     id: 7,
     img: '/assets/gallery-img-7.png',
+    alt: 'Silk Jacket',
     title: 'Dresses',
     class: 'gallery__tall',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -48,18 +55,21 @@ export const GALLERY = [
   {
     id: 8,
     img: '/assets/gallery-img-8.png',
+    alt: 'Silk Jacket',
     title: 'Dressing Gowns',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 9,
     img: '/assets/gallery-img-9.png',
+    alt: 'Silk Jacket',
     title: 'Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 10,
     img: '/assets/gallery-img-10.png',
+    alt: 'Silk Jacket',
     title: 'Jackets',
     class: 'gallery__wide',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -67,6 +77,7 @@ export const GALLERY = [
   {
     id: 11,
     img: '/assets/gallery-img-11.png',
+    alt: 'Silk Jacket',
     title: 'Dresses',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },

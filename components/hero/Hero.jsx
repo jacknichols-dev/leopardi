@@ -29,7 +29,7 @@ export const Hero = (props) => {
             <SwiperSlide key={slide.id}>
               <Image
                 src={slide.bgImg}
-                alt="banner"
+                alt={slide.alt}
                 blurDataURL={slide.bgImg}
                 placeholder="blur"
                 layout="fill"

@@ -44,7 +44,7 @@ const Categories = () => {
               >
                 <Image
                   src={item.img}
-                  alt="category"
+                  alt={item.alt}
                   layout="fill"
                   objectFit="contain"
                   blurDataURL={item.img}

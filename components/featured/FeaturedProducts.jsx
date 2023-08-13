@@ -23,7 +23,7 @@ const FeaturedProducts = () => {
                   <div className={styles['featured__card--img']}>
                     <Image
                       src={card.img}
-                      alt="product"
+                      alt={card.alt}
                       layout="fill"
                       objectFit="cover"
                       blurDataURL={card.img}

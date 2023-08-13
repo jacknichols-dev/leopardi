@@ -6,7 +6,7 @@ import Layout from '@/components/layout/Layout';
 const terms = () => {
   return (
     <Layout
-      content="This is Leopardi terms and conditions page. This page outlines all our policies."
+      content="This is Leopardi terms and conditions page. This page outlines all our policies on our clothiing products."
       title="Terms & Conditions"
     >
       <div className={styles.terms}>

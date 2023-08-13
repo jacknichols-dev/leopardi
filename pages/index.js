@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <Layout
-        content="Leopardi Clothing are a fantastic choice for occasion-wear with bespoke hand picked collections of silk jackets, coats, dresses, kimonos and silk dressing gowns"
-        title="Womens Occasional Wear Clothing | Best Quality Luxurious Clothing For Women."
+        content="Leopardi Clothing are a fantastic choice for occasion-wear with bespoke hand picked collections of silk and cashmere jackets, coats, dresses, kimonos and dressing gowns"
+        title="Womens Clothing | Luxurious Silk and Cashmere Coats & Jackets For Women"
       >
         <main className={styles.main}>
           <Hero />

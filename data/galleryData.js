@@ -47,7 +47,7 @@ export const GALLERY = [
   {
     id: 7,
     img: '/assets/gallery-img-7.png',
-    alt: 'Silk Jacket',
+    alt: 'Silk Red Mid length Jacket',
     title: 'Dresses',
     class: 'gallery__tall',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -55,21 +55,21 @@ export const GALLERY = [
   {
     id: 8,
     img: '/assets/gallery-img-8.png',
-    alt: 'Silk Jacket',
+    alt: 'Silk and cashmere green Jacket with purple details',
     title: 'Dressing Gowns',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 9,
     img: '/assets/gallery-img-9.png',
-    alt: 'Silk Jacket',
+    alt: 'woman wearing wool yellow scarf',
     title: 'Coats',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },
   {
     id: 10,
     img: '/assets/gallery-img-10.png',
-    alt: 'Silk Jacket',
+    alt: 'Leopardi fair stall showing all collections of clothes',
     title: 'Jackets',
     class: 'gallery__wide',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -77,7 +77,7 @@ export const GALLERY = [
   {
     id: 11,
     img: '/assets/gallery-img-11.png',
-    alt: 'Silk Jacket',
+    alt: 'Silk and cashmere mustard coloured Jacket with dark red details',
     title: 'Dresses',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
   },

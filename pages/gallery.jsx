@@ -56,7 +56,7 @@ const gallery = () => {
               >
                 <Image
                   src={itm.img}
-                  alt="gallery pic"
+                  alt={itm.alt}
                   blurDataURL={itm.img}
                   placeholder="blur"
                   layout="fill"

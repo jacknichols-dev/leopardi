@@ -41,6 +41,7 @@ const gallery = () => {
                   pic="/assets/jackets.jpg"
                   text1="Interested In Our Ranges?"
                   text2="See Our Products"
+                  alt="Merino wool red jacket with floral detailing"
                 />
               </div>
             </div>

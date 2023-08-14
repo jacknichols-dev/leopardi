@@ -73,6 +73,8 @@ const events = () => {
             pic="/assets/banner-1.webp"
             text1="Want to See All Our Offerings?"
             text2="Check Out Our Etsy Store."
+            alt="Silk and cashmere Mid Length coats on a rack"
+            margin="0 0 5rem 0"
           />
         </div>
       </div>

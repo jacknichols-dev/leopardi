@@ -3,11 +3,11 @@ import Image from 'next/legacy/image';
 import Button from '../button/Button';
 import styles from '@/styles/Home.module.scss';
 
-const EtsyCta = ({ pic, text1, text2 }) => {
+const EtsyCta = ({ pic, text1, text2, alt, margin }) => {
   return (
-    <div className={styles.welcome__right}>
+    <div className={styles.welcome__right} style={{ margin: margin }}>
       <>
-        <Image src={pic} alt="welcome" layout="fill" objectFit="cover" />
+        <Image src={pic} alt={alt} layout="fill" objectFit="cover" />
         <div className={styles['welcome__right--text']}>
           <h2>
             {text1} <br></br>

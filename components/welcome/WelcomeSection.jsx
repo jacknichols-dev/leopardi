@@ -33,6 +33,7 @@ const WelcomeSection = () => {
           pic="/assets/gallery-img-5.png"
           text1="View Our Range In Our"
           text2="Etsy Store"
+          alt="Woman with Silk embroidered cream jacket with floral detailing"
         />
       </div>
     </div>

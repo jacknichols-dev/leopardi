@@ -5,6 +5,7 @@ import Image from 'next/legacy/image';
 import ContactUs from '../components/contactUs/ContactUs';
 import check from '../public/assets/Icon-check-square.png';
 import HeadingTitle from '../components/headingTitle/HeadingTitle';
+import EtsyCta from '../components/welcome/EtsyCta';
 // import ContactInfo from '../components/contactInfo/ContactInfo';
 
 const contact = () => {
@@ -52,6 +53,13 @@ const contact = () => {
                 </div>
               </div>
             </div>
+            <EtsyCta
+              pic="/assets/banner-4.webp"
+              text1="Interested In Our Ranges?"
+              text2="See Our Products"
+              alt="Silk and cashmere Jackets"
+              margin="0 0 5rem 0"
+            />
           </div>
         </div>
       </Layout>

@@ -7,7 +7,7 @@ export const HERO_SLIDES = [
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
     color: 'white',
     outline: '.5px black',
-    textWidth: '50rem',
+    textWidth: '90%',
     fontWeight: 'bold',
   },
   {
@@ -19,7 +19,7 @@ export const HERO_SLIDES = [
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
     color: 'white',
     outline: '.5px black',
-    textWidth: '80rem',
+    textWidth: '90%',
     fontWeight: 'bold',
   },
   {
@@ -30,7 +30,7 @@ export const HERO_SLIDES = [
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
     color: '#d3a166',
     outline: '',
-    textWidth: '55rem',
+    textWidth: '90%',
     fontWeight: '300',
   },
   {
@@ -41,7 +41,7 @@ export const HERO_SLIDES = [
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
     color: 'white',
     outline: '.5px black',
-    textWidth: '50rem',
+    textWidth: '90%',
     fontWeight: 'bold',
   },
 ];

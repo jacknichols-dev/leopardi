@@ -24,7 +24,6 @@ const EtsyCta = ({ pic, text1, text2, alt, margin }) => {
         </div>
 
         <div
-          className=""
           style={{
             background: 'black',
             opacity: '.5',

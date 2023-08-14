@@ -17,7 +17,7 @@ export const CARDS = [
     id: 3,
     img: '/assets/product-3.webp',
     alt: 'Pink Paisley Jacket',
-    title: 'Merino Wool Pink Paisley Jacket',
+    title: 'Merino Wool Paisley Jacket',
     link: 'https://www.etsy.com/uk/listing/1168879462/pink-paisley-jacket-with-green-silk-trim?click_key=f31c8c4afe83cce83482ff29e9079806e5d49718%3A1168879462&click_sum=73adc567&ref=shop_home_active_3&frs=1&sts=1',
   },
   {

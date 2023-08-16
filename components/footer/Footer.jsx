@@ -44,6 +44,9 @@ const Footer = () => {
                 <Link href={'/contact'} legacyBehavior>
                   <li>Contact Us</li>
                 </Link>
+                <Link href={'/terms'} legacyBehavior>
+                  <li>Terms & Conditions</li>
+                </Link>
               </ul>
             </div>
           </div>

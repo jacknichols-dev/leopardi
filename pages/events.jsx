@@ -39,10 +39,10 @@ const events = () => {
                 <span>9th - 11th June:</span> Wealden Times Summer Fair at Hole
                 Park, Rolvenden TN17 4JB
               </p>
-              <p>
+              {/* <p>
                 <span>22nd - 24th June:</span> The Lincolnshire Show. The Mews
                 Eighth Avenue. Lincolnshire Showground. LN2 2NA
-              </p>
+              </p> */}
               <p>
                 <span>5th October:</span> Friends of Essex Churches Trust Gift
                 Fair, Hylands House,Hylands Park, Chelmsford. CM2 8WQ
@@ -51,10 +51,10 @@ const events = () => {
                 <span>16th - 19th Nov.</span> Ely Cathedral Christmas Fair, Ely,
                 CB7 4DL (TBC)
               </p>
-              <p>
+              {/* <p>
                 <span>25th - 27th Nov.</span> Presents Galore Christmas Charity
                 Fair, Rowley Mile, Newmarket, CB8 0TF
-              </p>
+              </p> */}
               <p>
                 <span>24th - 27th Nov.</span> The Burghley Christmas Fair,
                 Burghley House, Stamford, Lincolnshire.

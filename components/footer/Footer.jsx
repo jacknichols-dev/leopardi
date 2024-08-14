@@ -27,11 +27,11 @@ const Footer = () => {
       <footer className={styles.footer}>
         <div className={`${styles.footer__content} ${'container'}`}>
           <div className={styles.footer__left}>
-            <div className={styles['footer__left--item']}>
+            {/* <div className={styles['footer__left--item']}>
               <h2 style={{ color: '#f0b020' }}>Business Hours</h2>
               <p>Mon - Sat</p>
               <p>8am - 6pm</p>
-            </div>
+            </div> */}
             <div className={styles['footer__left--item']}>
               <h2 style={{ color: '#f0b020' }}>Sitemap</h2>
               <ul>

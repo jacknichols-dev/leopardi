@@ -27,14 +27,16 @@ const gallery = () => {
                 Luxurious Women&apos;s Occasional Wear Clothing
               </h1>
               <p style={{ paddingBottom: '3rem' }}>
-                All the fabrics used for our coats and jackets are made in
-                cashmere, merino wool, silk or block printed cotton. In addition
-                to these, we have introduced a range of colourful and easy to
-                wear Italian knitwear.<br></br>
-                <br></br> We have been a member of the Charity Fair Association
-                since 1998 and have had stalls at many charity fairs, shows and
-                luncheons around the country. Through these fairs we have
-                donated ten per cent of our turnover to many charities.
+                Our coats and jackets are made from luxurious fabrics like
+                cashmere, merino wool, silk, and block-printed cotton. We’ve
+                also added a fun and easy-to-wear collection of colorful Italian
+                knitwear.
+                <br></br>
+                <br></br> Since 1998, we have been a member of the Charity Fair
+                Association, participating in numerous charity fairs, shows, and
+                luncheons across the nation. Through these events, we have
+                generously donated ten percent of our turnover to various
+                charitable causes.
               </p>
               <div style={{ flex: '1', width: '100%' }}>
                 <EtsyCta

@@ -108,13 +108,13 @@ const Navbar = ({ scrollActive }) => {
           ))}
         </div>
         <div className={styles['header__nav--socials']}>
-          <a
+          {/* <a
             href="https://www.facebook.com/leopardiclothing"
             target="_blank"
             rel="noopener noreferrer"
           >
             <CiFacebook size="3rem" />
-          </a>
+          </a> */}
           <a
             href="https://www.etsy.com/uk/shop/LeopardiUK"
             target="_blank"

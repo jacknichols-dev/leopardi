@@ -10,7 +10,7 @@ const WelcomeSection = () => {
           <h1>
             Welcome to Leopardi{' '}
             <span style={{ color: '#d3a166', fontSize: '2.5rem' }}>
-              Luxurious Women&apos;s Clothing Made For Any Occasion.
+              Women&apos;s Clothing Made For Any Occasion.
             </span>
           </h1>
           <p>
@@ -23,9 +23,9 @@ const WelcomeSection = () => {
             ten per cent of our turnover to many charities.
             <br></br>
             <br></br>
-            We are a fantastic choice for occasion-wear with bespoke hand picked
-            collections of silk jackets, coats, dresses, kimonos and silk
-            dressing gowns
+            We are an excellent choice for special occasions, offering
+            handpicked collections of exquisite silk jackets, coats, dresses,
+            kimonos, and silk dressing gowns.
           </p>
         </div>
 

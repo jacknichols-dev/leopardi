@@ -49,12 +49,10 @@ const FeaturedProducts = () => {
             width: '80%',
           }}
         >
-          We have a look for any occasion, from those special occasions to
-          uplifting your look on the high street. Each piece has been
-          meticulously hand picked from the fabric to the pattern as well as the
-          fit measured for all sizes, making sure each look is unique to you.
-          All our collections can be bought through our Etsy store. Just click
-          the button below to view our offerings.
+          We find styles for any occasion, from special events to elevating your
+          high street look. Each piece is meticulously handpicked from fabric to
+          pattern, with a unique fit for all sizes. Shop our collections at our
+          Etsy store. Click below to view our offerings.
         </p>
         <div className="" style={{ textAlign: 'center' }}>
           <a

@@ -135,8 +135,4 @@ export const CUSTOMERS = [
     id: 34,
     img: '/assets/customer-34.webp',
   },
-  {
-    id: 35,
-    img: '/assets/customer-35.webp',
-  },
 ];

@@ -135,4 +135,28 @@ export const CUSTOMERS = [
     id: 34,
     img: '/assets/customer-34.webp',
   },
+  {
+    id: 35,
+    img: '/assets/customer-35.webp',
+  },
+  {
+    id: 36,
+    img: '/assets/customer-36.webp',
+  },
+  {
+    id: 37,
+    img: '/assets/customer-37.webp',
+  },
+  {
+    id: 38,
+    img: '/assets/customer-38.webp',
+  },
+  {
+    id: 39,
+    img: '/assets/customer-39.webp',
+  },
+  {
+    id: 40,
+    img: '/assets/customer-40.webp',
+  },
 ];

@@ -25,6 +25,13 @@
 
     &--left {
       flex: 2;
+
+      @include respond(tab-land) {
+        p {
+          margin: 0 2rem 0 2rem;
+          text-align: center;
+        }
+      }
     }
 
     &--right {

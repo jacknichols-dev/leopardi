@@ -56,8 +56,8 @@ const contact = () => {
             </div>
             <EtsyCta
               pic="/assets/banner-4.webp"
-              text1="Interested In Our Ranges?"
-              text2="See Our Products"
+              text1="Explore Our Product Ranges"
+              text2="On Etsy"
               alt="Silk and cashmere Jackets"
               margin="0 0 5rem 0"
             />

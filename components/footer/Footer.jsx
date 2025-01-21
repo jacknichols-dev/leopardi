@@ -56,7 +56,7 @@ const Footer = () => {
               We are proud to offer exquisite, bespoke clothing for all
               occasions at competitive prices. We prioritize customer needs and
               invite you to explore our Etsy store to view and purchase our
-              exquisite creations.
+              exquisite ranges.
             </p>
             <Link href={'/contact'}>
               <Button href="/contact">Contact Us</Button>

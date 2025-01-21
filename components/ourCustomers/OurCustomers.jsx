@@ -13,7 +13,7 @@ const OurCustomers = () => {
       items: 3,
     },
     desktop: {
-      breakpoint: { max: 1050, min: 600 },
+      breakpoint: { max: 1150, min: 600 },
       items: 2,
     },
     tablet: {

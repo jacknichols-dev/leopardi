@@ -69,7 +69,7 @@ const gallery = () => {
               </div>
             ))}
           </div>
-          <HeadingTitle>Our Customers</HeadingTitle>
+          {/* <HeadingTitle>Our Customers Dressed in Leopardi</HeadingTitle> */}
           <OurCustomers />
         </div>
       </div>

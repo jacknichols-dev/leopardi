@@ -42,6 +42,7 @@ export const Hero = (props) => {
                     WebkitTextStroke: slide.outline,
                     fontWeight: slide.fontWeight,
                     width: slide.textWidth,
+                    fontFamily: slide.font,
                   }}
                 >
                   {slide.title}

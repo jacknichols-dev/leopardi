@@ -41,8 +41,8 @@ const gallery = () => {
               <div style={{ flex: '1', width: '100%' }}>
                 <EtsyCta
                   pic="/assets/jackets.jpg"
-                  text1="Interested In Our Ranges?"
-                  text2="See Our Products"
+                  text1="Explore Our Product Range"
+                  text2="On Our Etsy Store."
                   alt="Merino wool red jacket with floral detailing"
                 />
               </div>

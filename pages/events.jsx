@@ -24,8 +24,8 @@ const events = () => {
           >
             <div className={styles['events__content--left']}>
               <h1 style={{ textAlign: 'center', paddingBottom: '3rem' }}>
-                Leopardi Occasional Women&apos;s Wear Will Be At These Following
-                Events This Year.
+                Leopardi’s Occasional Women’s Wear will be showcased at the
+                following events this year:
               </h1>
               <p>
                 <span>4th April:</span>4th April: LadyTaverners Luncheon at The

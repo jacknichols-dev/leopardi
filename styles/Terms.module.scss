@@ -5,6 +5,10 @@
 
   &__heading {
     margin: 5rem 0;
+
+    @include respond(tab-land) {
+      margin-top: 10rem;
+    }
   }
 
   h2 {

@@ -43,6 +43,8 @@ export const Hero = (props) => {
                     fontWeight: slide.fontWeight,
                     width: slide.textWidth,
                     fontFamily: slide.font,
+                    fontSize: slide.size,
+                    lineHeight: slide.line,
                   }}
                 >
                   {slide.title}

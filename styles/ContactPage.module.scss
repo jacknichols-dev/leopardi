@@ -36,6 +36,7 @@
 
       @include respond(tab-land) {
         width: 90%;
+        text-align: center;
       }
     }
   }
@@ -88,6 +89,13 @@
       h2 {
         padding-bottom: 3rem;
         font-size: 3rem;
+      }
+
+      p {
+        @include respond(tab-land) {
+          width: 90%;
+          text-align: center;
+        }
       }
     }
   }

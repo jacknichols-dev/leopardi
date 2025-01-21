@@ -37,8 +37,7 @@ const contact = () => {
                   <div className={styles['contactpage__right--header']}>
                     <h2>How Can We Help?</h2>
                     <p>
-                      A member of our team will reply to any query as soon as
-                      possible.
+                      A member of our team will promptly respond to any inquiry.
                     </p>
                   </div>
                   <div className={styles['contactpage__right--list']}>

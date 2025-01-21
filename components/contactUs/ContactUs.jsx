@@ -38,6 +38,7 @@ const ContactUs = ({ title, shadow }) => {
             lastName: '',
             email: '',
             message: '',
+            telephone: '',
           });
           setStatus('SUCCESS');
         },
@@ -74,14 +75,18 @@ const ContactUs = ({ title, shadow }) => {
             name="firstName"
             id="firstName"
             type="text"
+            required={true}
+            title="Please enter your first name"
           />
           <InputField
             value={values.lastName}
             handleChange={handleChange}
-            label="Last Name *"
+            label="Last Name (not required)"
             name="lastName"
             id="lastName"
             type="text"
+            required={false}
+            title="Please enter your surname"
           />
         </div>
 
@@ -91,6 +96,18 @@ const ContactUs = ({ title, shadow }) => {
           label="Email *"
           name="email"
           type="email"
+          required={true}
+          title="Please enter your email"
+        />
+
+        <InputField
+          value={values.telephone}
+          handleChange={handleChange}
+          label="Telephone Number (not required)"
+          name="telephone"
+          type="tel"
+          required={false}
+          title="Please enter your telephone number"
         />
 
         <TextAreaField
@@ -98,6 +115,8 @@ const ContactUs = ({ title, shadow }) => {
           handleChange={handleChange}
           label="Message *"
           name="message"
+          required={true}
+          title="your message"
         />
         <div className="" style={{ textAlign: 'center' }}>
           <Button type="submit">SEND</Button>

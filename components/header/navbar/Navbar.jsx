@@ -121,7 +121,7 @@ const Navbar = ({ scrollActive }) => {
             rel="noopener noreferrer"
             title="Etsy Store"
           >
-            <FaEtsy size="2rem" />
+            <FaEtsy size="2rem" color="#ff7900" />
           </a>
         </div>
       </nav>

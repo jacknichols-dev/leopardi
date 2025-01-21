@@ -34,7 +34,13 @@
     // margin: $margin;
 
     @include respond(tab-land) {
-      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__title {
+    @include respond(tab-land) {
+      display: none;
     }
   }
 
@@ -47,6 +53,10 @@
     flex: 1;
     background-color: $pink;
     padding: 2rem;
+
+    @include respond(tab-land) {
+      padding: 4rem 2rem 0 2rem;
+    }
 
     &--content {
       height: 100%;

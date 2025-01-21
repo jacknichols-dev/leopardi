@@ -26,6 +26,7 @@ const contact = () => {
                     fontSize: '3rem',
                     width: '78%',
                   }}
+                  className={styles.contactpage__title}
                 >
                   Leopardi Women’s Clothing provides prompt and professional
                   customer service. Our team is available to assist you with any

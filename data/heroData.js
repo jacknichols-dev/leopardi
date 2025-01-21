@@ -59,6 +59,5 @@ export const HERO_SLIDES = [
     textWidth: '70%',
     fontWeight: '600',
     font: 'Garamond',
-    line: '6rem',
   },
 ];

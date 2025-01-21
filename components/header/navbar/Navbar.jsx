@@ -119,6 +119,7 @@ const Navbar = ({ scrollActive }) => {
             href="https://www.etsy.com/uk/shop/LeopardiUK"
             target="_blank"
             rel="noopener noreferrer"
+            title="Etsy Store"
           >
             <FaEtsy size="2rem" />
           </a>

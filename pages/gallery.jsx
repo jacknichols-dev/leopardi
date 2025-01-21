@@ -16,7 +16,7 @@ const gallery = () => {
     >
       <div className="container">
         <div className={styles.gallery}>
-          <div style={{ margin: '6rem 0' }}>
+          <div className={styles.gallery__title}>
             <HeadingTitle>
               Gallery Showcasing Our Unique Collections
             </HeadingTitle>
@@ -24,7 +24,8 @@ const gallery = () => {
           <div className={styles.gallery__header}>
             <div style={{ textAlign: 'center' }}>
               <h1 style={{ paddingBottom: '3rem' }}>
-                Luxurious Women&apos;s Occasional Wear Clothing
+                Occasional wear clothing for women of exceptional quality and
+                elegance.
               </h1>
               <p style={{ paddingBottom: '3rem' }}>
                 Our coats and jackets are made from luxurious fabrics like

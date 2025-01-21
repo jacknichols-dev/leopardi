@@ -13,7 +13,7 @@ const events = () => {
     >
       <div className={styles.events}>
         <div className="container">
-          <div style={{ margin: '6rem 0' }}>
+          <div className={styles.events__title}>
             <HeadingTitle>
               Our Events In {new Date().getFullYear()}
             </HeadingTitle>

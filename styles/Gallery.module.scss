@@ -3,6 +3,13 @@
 .gallery {
   min-height: 100vh;
 
+  &__title {
+    margin-top: 5rem;
+    @include respond(tab-land) {
+      margin-top: 10rem;
+    }
+  }
+
   &__header {
     display: flex;
     align-items: center;

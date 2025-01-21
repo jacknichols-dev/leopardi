@@ -18,7 +18,9 @@ const contact = () => {
         <div className={styles.contactpage}>
           <div className={styles.contactpage__header}>
             <div className="container">
-              <HeadingTitle>Contact Us</HeadingTitle>
+              <div className={styles.contactpage__title}>
+                <HeadingTitle>Contact Us</HeadingTitle>
+              </div>
               <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <h1
                   style={{

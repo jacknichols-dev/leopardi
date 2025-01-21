@@ -1,6 +1,14 @@
 @import 'variables';
 
 .contactpage {
+  &__title {
+    margin-top: 5rem 0;
+
+    @include respond(tab-land) {
+      margin-top: 5rem;
+    }
+  }
+
   &__header {
     height: 100%;
     padding: 6rem 0;
@@ -16,6 +24,10 @@
 
     h1 {
       padding-bottom: 1rem;
+
+      @include respond(tab-land) {
+        display: none;
+      }
     }
 
     p {
@@ -39,9 +51,6 @@
   }
 
   &__title {
-    @include respond(tab-land) {
-      display: none;
-    }
   }
 
   &__left {

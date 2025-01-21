@@ -19,12 +19,20 @@ const contact = () => {
           <div className={styles.contactpage__header}>
             <div className="container">
               <HeadingTitle>Contact Us</HeadingTitle>
-              <h1 style={{ lineHeight: '1.2', fontSize: '3rem' }}>
-                Leopardi Women’s Clothing provides prompt and professional
-                customer service. Our team is available to assist you with any
-                inquiries you may have. Kindly contact us via the messaging form
-                below and we will email back as soon as possible.
-              </h1>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <h1
+                  style={{
+                    lineHeight: '1.2',
+                    fontSize: '3rem',
+                    width: '78%',
+                  }}
+                >
+                  Leopardi Women’s Clothing provides prompt and professional
+                  customer service. Our team is available to assist you with any
+                  inquiries you may have. Kindly contact us via the messaging
+                  form below and we will email back as soon as possible.
+                </h1>
+              </div>
             </div>
           </div>
           <div className="container">

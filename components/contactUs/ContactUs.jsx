@@ -81,7 +81,7 @@ const ContactUs = ({ title, shadow }) => {
           <InputField
             value={values.lastName}
             handleChange={handleChange}
-            label="Last Name (not required)"
+            label="Last Name (optional)"
             name="lastName"
             id="lastName"
             type="text"
@@ -103,7 +103,7 @@ const ContactUs = ({ title, shadow }) => {
         <InputField
           value={values.telephone}
           handleChange={handleChange}
-          label="Telephone Number (not required)"
+          label="Telephone Number (optional)"
           name="telephone"
           type="tel"
           required={false}

@@ -22,7 +22,11 @@ const terms = () => {
 
           <h2>RIGHT TO CANCEL</h2>
 
-          <p>
+          <p
+            style={{
+              marginBottom: '5rem',
+            }}
+          >
             You have the right to cancel the purchase of a good without having
             to give a reason at any time within the cooling off period of 14
             working days, beginning on the day after you receive the goods. If

@@ -7,12 +7,16 @@ const WelcomeSection = () => {
     <div className="container">
       <div className={styles.welcome}>
         <div className={styles.welcome__left}>
-          <h1>
-            Welcome to Leopardi{' '}
-            <span style={{ color: '#d3a166', fontSize: '2.5rem' }}>
-              Discover a wide variety of women’s clothing for every occasion.
-            </span>
-          </h1>
+          <h1>Welcome to Leopardi</h1>
+          <p
+            style={{
+              color: '#d3a166',
+              fontSize: '2.5rem',
+              marginBottom: '3rem',
+            }}
+          >
+            Discover a wide variety of women’s clothing for every occasion.
+          </p>
           <p>
             All the fabrics used for our coats and jackets are made in cashmere,
             merino wool, silk or block printed cotton. In addition to these, we

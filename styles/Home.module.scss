@@ -31,7 +31,6 @@
 
     h1 {
       color: $dark;
-      padding-bottom: 3rem;
 
       @include respond(tab-port) {
         line-height: 1.4;

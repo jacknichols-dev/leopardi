@@ -33,9 +33,17 @@
       color: $dark;
       padding-bottom: 3rem;
 
+      @include respond(tab-port) {
+        line-height: 1.4;
+      }
+
       span {
         @include respond(laptop) {
           display: inline-block;
+
+          @include respond(tab-port) {
+            line-height: 1.2;
+          }
         }
       }
     }

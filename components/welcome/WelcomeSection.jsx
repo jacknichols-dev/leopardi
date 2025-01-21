@@ -10,7 +10,7 @@ const WelcomeSection = () => {
           <h1>
             Welcome to Leopardi{' '}
             <span style={{ color: '#d3a166', fontSize: '2.5rem' }}>
-              Women&apos;s Clothing Made For Any Occasion.
+              Discover a wide variety of women’s clothing for every occasion.
             </span>
           </h1>
           <p>

@@ -47,7 +47,6 @@ const Layout = ({ content, title, children }) => {
           style={{
             display: 'flex',
             flexDirection: 'column',
-            minHeight: '80vh',
           }}
         >
           {children}

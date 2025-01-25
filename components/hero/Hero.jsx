@@ -35,7 +35,14 @@ export const Hero = (props) => {
                 layout="fill"
                 objectFit="cover"
               />
-              <div className={styles['hero__slide--text']}>
+              <div
+                className={styles['hero__slide--text']}
+                style={{
+                  flexDirection: slide.flexDirection,
+                  alignItems: slide.alignItems,
+                  padding: slide.padding,
+                }}
+              >
                 <h2
                   style={{
                     color: slide.color,
@@ -45,6 +52,8 @@ export const Hero = (props) => {
                     fontFamily: slide.font,
                     fontSize: slide.size,
                     lineHeight: slide.line,
+                    textShadow: slide.textShadow,
+                    textAlign: slide.textAlign,
                   }}
                 >
                   {slide.title}

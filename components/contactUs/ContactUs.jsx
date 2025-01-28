@@ -119,7 +119,9 @@ const ContactUs = ({ title, shadow }) => {
           title="your message"
         />
         <div className="" style={{ textAlign: 'center' }}>
-          <Button type="submit">SEND</Button>
+          <Button margin="1rem 0 0 0" type="submit">
+            Send
+          </Button>
         </div>
         {status && renderAlert()}
       </form>

@@ -66,7 +66,7 @@ export const HERO_SLIDES = [
     alt: 'Silk and cashmere Jackets',
     title: 'Timeless designs, women’s coats crafted for every occasion.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
-    color: '#D0F0C0',
+    color: '#f0e2ef',
     outline: '.5px black',
     textWidth: '70%',
     fontWeight: '600',

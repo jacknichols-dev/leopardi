@@ -6,7 +6,8 @@ import NavItem from '../navItem/NavItem';
 import Image from 'next/image';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { CiFacebook } from 'react-icons/ci';
-import { FaEtsy } from 'react-icons/fa';
+// import { FaEtsy } from 'react-icons/fa';
+import { BiLogoEtsy } from 'react-icons/bi';
 
 const MENU_LIST = [
   {
@@ -121,7 +122,8 @@ const Navbar = ({ scrollActive }) => {
             rel="noopener noreferrer"
             title="Etsy Store"
           >
-            <FaEtsy size="2rem" color="#ff7900" />
+            {/* <FaEtsy size="2rem" color="#ff7900" /> */}
+            <BiLogoEtsy size="6rem" color="#ff7900" />
           </a>
         </div>
       </nav>

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const Layout = ({ content, title, children }) => {
   return (
@@ -39,6 +40,7 @@ const Layout = ({ content, title, children }) => {
           sizes="16x16"
           href="/images//leopardi.png"
         />
+        <SpeedInsights />
       </Head>
 
       <>

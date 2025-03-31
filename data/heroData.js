@@ -31,8 +31,8 @@ export const HERO_SLIDES = [
   },
   {
     id: 3,
-    bgImg: '/assets/banner-2.webp',
-    alt: 'Silk designer dressing gown with beautiful print',
+    bgImg: '/assets/banner-3.webp',
+    alt: 'Silk designer dressing gowns with beautiful print',
     title:
       'Residing in comfort has never been more appealing with our exquisite dressing gowns.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',
@@ -49,7 +49,7 @@ export const HERO_SLIDES = [
   },
   {
     id: 4,
-    bgImg: '/assets/banner-3.webp',
+    bgImg: '/assets/banner-2a.webp',
     alt: 'Extravagant Occasionwear products',
     title: 'Extravagant Occasionwear. A Fashion Voyage.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',

@@ -49,7 +49,7 @@ export const HERO_SLIDES = [
   },
   {
     id: 4,
-    bgImg: '/assets/banner-2a.webp',
+    bgImg: '/assets/banner-2.webp',
     alt: 'Extravagant Occasionwear products',
     title: 'Extravagant Occasionwear. A Fashion Voyage.',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',

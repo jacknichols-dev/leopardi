@@ -16,7 +16,7 @@ export const HERO_SLIDES = [
   },
   {
     id: 2,
-    bgImg: '/assets/banner-1a.webp',
+    bgImg: '/assets/banner-2a.webp',
     alt: 'Kantha jackets on a rack',
     title: 'Explore Our Extensive Collection of Kantha Jackets',
     link: 'https://www.etsy.com/uk/shop/LeopardiUK',

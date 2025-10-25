@@ -179,4 +179,56 @@ export const CUSTOMERS = [
     id: 45,
     img: '/assets/customer-45.webp',
   },
+  {
+    id: 52,
+    img: '/assets/customer-52.webp',
+  },
+  {
+    id: 53,
+    img: '/assets/customer-53.webp',
+  },
+  {
+    id: 54,
+    img: '/assets/customer-54.webp',
+  },
+  {
+    id: 55,
+    img: '/assets/customer-55.webp',
+  },
+  {
+    id: 56,
+    img: '/assets/customer-56.webp',
+  },
+  {
+    id: 46,
+    img: '/assets/customer-46.webp',
+  },
+  {
+    id: 47,
+    img: '/assets/customer-47.webp',
+  },
+  {
+    id: 48,
+    img: '/assets/customer-48.webp',
+  },
+  {
+    id: 49,
+    img: '/assets/customer-49.webp',
+  },
+  {
+    id: 50,
+    img: '/assets/customer-50.webp',
+  },
+  {
+    id: 51,
+    img: '/assets/customer-51.webp',
+  },
+  {
+    id: 57,
+    img: '/assets/customer-57.webp',
+  },
+  {
+    id: 58,
+    img: '/assets/customer-58.webp',
+  },
 ];

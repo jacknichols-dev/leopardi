@@ -71,9 +71,9 @@ const gallery = () => {
             ))}
           </div>
           {/* <HeadingTitle>Our Customers Dressed in Leopardi</HeadingTitle> */}
-          <OurCustomers />
         </div>
       </div>
+      <OurCustomers />
     </Layout>
   );
 };

@@ -10,11 +10,11 @@ const OurCustomers = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 850 },
-      items: 3,
+      items: 5,
     },
     desktop: {
-      breakpoint: { max: 1150, min: 600 },
-      items: 2,
+      breakpoint: { max: 2000, min: 600 },
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 850, min: 0 },
@@ -24,6 +24,7 @@ const OurCustomers = () => {
 
   return (
     <div className={styles.customers}>
+      <HeadingTitle>Our Customers Wearing Leopardi</HeadingTitle>
       <div className="container">
         <Carousel
           responsive={responsive}

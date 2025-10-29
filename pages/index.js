@@ -4,6 +4,7 @@ import { Hero } from '@/components/hero/Hero';
 import WelcomeSection from '@/components/welcome/WelcomeSection';
 import FeaturedProducts from '@/components/featured/FeaturedProducts';
 import Categories from '@/components/categories/Categories';
+import OurCustomers from '../components/ourCustomers/OurCustomers';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <main className={styles.main}>
           <Hero />
           <WelcomeSection />
+          <OurCustomers />
           <FeaturedProducts />
           <Categories />
         </main>
